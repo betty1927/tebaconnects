@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "eyebrow": "PARTNERSHIP ECOSYSTEM",
+    "headlineBlack": "Where Connections",
+    "headlineRed": "Become Opportunities.",
+    "introduction": "We connect businesses, investors, institutions and governments to advance market access, collaboration and sustainable growth across the USA, Africa and the Middle East.",
+    "breadcrumbs": [
+      { "label": "Home", "href": "/" },
+      { "label": "Partnerships", "href": "/partnerships" }
+    ]
+  },
+  "categories": [
+    {
+      "id": "chambers",
+      "number": "01",
+      "title": "Chambers & Business Associations",
+      "focus": "Chamber & Strategic Representation",
+      "description": "Bilateral chamber representation, business council management, and official delegation hosting.",
+      "deliverables": "Representation scope, stakeholder mapping, and bilateral policy advocacy.",
+      "relationshipTiers": "Signed Representation & Strategic Accords",
+      "icon": "landmark"
+    },
+    {
+      "id": "financial",
+      "number": "02",
+      "title": "Investment & Financial Institutions",
+      "focus": "Commercial Alliances & Capital Facilitation",
+      "description": "Connecting institutional capital, sovereign funds, and accredited allocators with verified regional investment projects.",
+      "deliverables": "Investor mapping, deal readiness advisory, and private salon facilitation.",
+      "relationshipTiers": "Verified Alliances & Deal Facilitation Partners",
+      "icon": "credit-card"
+    },
+    {
+      "id": "technology",
+      "number": "03",
+      "title": "Technology & Innovation",
+      "focus": "Cross-Border Ecosystem Transfer",
+      "description": "Accelerating cross-border tech deployment, digital transformation partnerships, and climate innovation transfer.",
+      "deliverables": "Ecosystem matching, pilot facilitation, and corporate partnership structuring.",
+      "relationshipTiers": "Active Collaborative Network",
+      "icon": "cpu"
+    },
+    {
+      "id": "trade-events",
+      "number": "04",
+      "title": "Trade, Exhibitions & Market Promotion",
+      "focus": "Events & International Showcases",
+      "description": "Curating high-level trade platforms, country pavilions, and targeted B2B matchmaking programs.",
+      "deliverables": "Delegation curation, pavilion management, and executive event operations.",
+      "relationshipTiers": "Verified Organizing & Co-Host Partners",
+      "icon": "calendar"
+    },
+    {
+      "id": "institutional",
+      "number": "05",
+      "title": "Development & Institutional Partnerships",
+      "focus": "Institutional & Sustainable Development",
+      "description": "Joint bilateral initiatives driving inclusive economic growth, female founder linkages, and youth workforce integration.",
+      "deliverables": "Program design, export readiness execution, and measurable impact tracking.",
+      "relationshipTiers": "Institutional MOUs & Engagement Frameworks",
+      "icon": "heart-handshake"
+    }
+  ],
+  "governance": {
+    "title": "Partnership Integrity & Verification",
+    "description": "Teba Connects distinguishes signed partners, prior institutional engagements, and prospective collaborations. All institutional partner marks and relationship descriptions reflect authorized engagements."
+  },
+  "cta": {
+    "title": "Explore Partnership Opportunities",
+    "subtitle": "We welcome collaborations with chambers, financial allocators, and industry leaders that create meaningful commercial impact.",
+    "primaryButton": "Become a Partner",
+    "secondaryButton": "Explore Collaboration Models",
+    "buttonHref": "/contact?inquiry=Partnership%20Opportunities"
+  }
+}

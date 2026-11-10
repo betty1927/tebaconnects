@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "eyebrow": "GET IN TOUCH",
+    "headlineBlack": "Let’s Turn Opportunities",
+    "headlineRed": "Into Impact.",
+    "introduction": "Whether you are entering a new market, seeking strategic partners, exploring investment opportunities or planning a delegation, we welcome the conversation.",
+    "breadcrumbs": [
+      { "label": "Home", "href": "/" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  },
+  "contactDetails": {
+    "emails": [
+      "teba.molla@tebaconnects.com",
+      "info@tebaconnects.com"
+    ],
+    "phones": [
+      { "region": "USA", "number": "+1 206 850 0926" },
+      { "region": "Ethiopia", "number": "+251 912 689 532" }
+    ],
+    "offices": [
+      {
+        "region": "United States",
+        "location": "Virginia, USA",
+        "description": "Global Headquarters & Strategic Advisory"
+      },
+      {
+        "region": "East Africa",
+        "location": "Addis Ababa, Ethiopia",
+        "description": "Continental Hub & Horn of Africa Operations"
+      }
+    ],
+    "website": "tebaconnects.com",
+    "linkedin": "https://linkedin.com/company/tebaconnects",
+    "markets": ["USA", "Africa", "Middle East"]
+  },
+  "form": {
+    "title": "Send Us an Inquiry",
+    "servicesOptions": [
+      "01 Strategic Representation",
+      "02 Market Entry & Expansion",
+      "03 Business Development",
+      "04 Trade & Investment Facilitation",
+      "05 Events & Market Promotion",
+      "General Consultation / Delegation Inquiry"
+    ],
+    "marketOptions": [
+      "USA",
+      "Africa (East / Pan-African)",
+      "Middle East (GCC / UAE)",
+      "Cross-Border Corridors (Multi-Region)"
+    ],
+    "submitButton": "Submit Inquiry / Book a Consultation",
+    "privacyConsentText": "I consent to Teba Connects processing my information to respond to this inquiry in accordance with professional advisory standards."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "eyebrow": "OUR CORE SERVICES",
+    "headlineBlack": "Strategic Access.",
+    "headlineRed": "Trusted Relationships.",
+    "headlineSecondary": "Cross-Border Execution.",
+    "introduction": "Tailored advisory and business development support for organizations navigating international growth.",
+    "breadcrumbs": [
+      { "label": "Home", "href": "/" },
+      { "label": "Services", "href": "/services" }
+    ]
+  },
+  "services": [
+    {
+      "id": "strategic-representation",
+      "number": "01",
+      "title": "Strategic Representation",
+      "summary": "Local presence, relationship management and stakeholder engagement.",
+      "description": "Acting as a trusted in-market extension of international chambers, businesses and institutions in priority markets.",
+      "whoWeSupport": "Chambers, companies and institutions.",
+      "deliverables": [
+        "Representation scope and strategic positioning",
+        "Stakeholder mapping and senior relationship cultivation",
+        "Executive engagement plan and bilateral outreach",
+        "Ongoing reporting and commercial governance"
+      ],
+      "image": "/assets/service-representation.jpg",
+      "ctaText": "Discuss This Service"
+    },
+    {
+      "id": "market-entry-expansion",
+      "number": "02",
+      "title": "Market Entry & Expansion",
+      "summary": "Market intelligence, partner mapping and go-to-market support.",
+      "description": "Practical advisory guiding organizations through commercial feasibility, regulatory landscapes, and local partner matching.",
+      "whoWeSupport": "Businesses assessing or entering new markets.",
+      "deliverables": [
+        "In-depth market assessment and regulatory review",
+        "Vetted partner and distributor shortlist",
+        "Customized go-to-market entry roadmap",
+        "Local setup facilitation and launch oversight"
+      ],
+      "image": "/assets/service-market-entry.jpg",
+      "ctaText": "Discuss This Service"
+    },
+    {
+      "id": "business-development",
+      "number": "03",
+      "title": "Business Development",
+      "summary": "Opportunity identification, partnership development and growth pipelines.",
+      "description": "Building qualified commercial pipelines and facilitating negotiations that lead to binding partnerships, JVs, and procurement contracts.",
+      "whoWeSupport": "Organizations seeking buyers, channels or strategic allies.",
+      "deliverables": [
+        "Qualified pipeline of prospective B2B counterparties",
+        "Targeted senior executive introductions",
+        "Engagement facilitation and contract negotiation support",
+        "Systematic pipeline and follow-up tracking"
+      ],
+      "image": "/assets/service-business-dev.jpg",
+      "ctaText": "Discuss This Service"
+    },
+    {
+      "id": "trade-investment-facilitation",
+      "number": "04",
+      "title": "Trade & Investment Facilitation",
+      "summary": "Connecting businesses, investors, governments and institutions.",
+      "description": "Unlocking foreign direct investment (FDI) and capital flows across North America, Africa, and the Gulf by packaging opportunities and matching them with accredited allocators.",
+      "whoWeSupport": "Investors, sponsors, chambers and businesses.",
+      "deliverables": [
+        "Investor and institutional partner mapping",
+        "Curated investment salons and closed-door deal meetings",
+        "Due diligence liaison and project viability packaging",
+        "Structured opportunity and deal engagement"
+      ],
+      "image": "/assets/service-trade-investment.jpg",
+      "ctaText": "Discuss This Service"
+    },
+    {
+      "id": "events-market-promotion",
+      "number": "05",
+      "title": "Events & Market Promotion",
+      "summary": "Business forums, delegations, investor roundtables and showcases.",
+      "description": "Designing, orchestrating, and promoting high-impact international platforms that bring together policymakers, industry leaders, and investors.",
+      "whoWeSupport": "Exhibitors, institutions, organizers and delegations.",
+      "deliverables": [
+        "Turnkey event and forum concept design",
+        "Bespoke trade mission and delegation coordination",
+        "Stakeholder outreach and high-level buyer matchmaking",
+        "Exhibition participation, pavilion management, and sponsorship support"
+      ],
+      "image": "/assets/service-events-promotion.jpg",
+      "ctaText": "Discuss This Service"
+    }
+  ],
+  "cta": {
+    "title": "Looking to enter or expand in a specific market?",
+    "subtitle": "Let's discuss your opportunities with our advisory team.",
+    "buttonText": "Book a Consultation",
+    "buttonHref": "/contact"
+  }
+}

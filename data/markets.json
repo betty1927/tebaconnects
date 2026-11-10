@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "eyebrow": "STRATEGIC CORRIDORS",
+    "headlineBlack": "Three Connected Markets.",
+    "headlineRed": "One Strategic Bridge.",
+    "introduction": "We connect businesses, investors and institutions across the USA, Africa and the Middle East through targeted market insight and senior-led relationship facilitation.",
+    "breadcrumbs": [
+      { "label": "Home", "href": "/" },
+      { "label": "Global Markets", "href": "/global-markets" }
+    ]
+  },
+  "markets": [
+    {
+      "id": "usa",
+      "region": "USA",
+      "subtitle": "A gateway to global capital, innovation and strategic markets.",
+      "overview": "Support international organizations engaging with the U.S. market and U.S. businesses exploring Africa and the Middle East.",
+      "whoWeSupport": "International corporations, chambers, trade delegations, and U.S. companies looking toward emerging market opportunities.",
+      "relevantSectors": [
+        "Technology & Digital Transformation",
+        "Financial Services & Capital Markets",
+        "Clean Energy & Climate Innovation",
+        "Manufacturing & Industrial Sourcing"
+      ],
+      "howWeHelp": [
+        "In-market representation and executive stakeholder engagement",
+        "Bilateral chamber and business council liaison",
+        "Cross-border investor introduction and deal facilitation",
+        "Practical expansion roadmap and partner matching"
+      ],
+      "image": "/assets/market-usa-large.jpg"
+    },
+    {
+      "id": "africa",
+      "region": "AFRICA",
+      "subtitle": "High-growth markets with vast opportunities across key sectors.",
+      "overview": "Connect organizations with market insight, stakeholders and opportunities in selected African markets, subject to country-specific validation.",
+      "whoWeSupport": "Global investors, multinationals, regional development institutions, and high-growth African enterprises.",
+      "relevantSectors": [
+        "Green Mobility & Clean Energy",
+        "Agriculture & Agro-Processing",
+        "Real Estate & Infrastructure",
+        "Women & Youth Entrepreneurship",
+        "Mining & Resource Development"
+      ],
+      "howWeHelp": [
+        "Senior-level institutional and regulatory engagement",
+        "Vetted local partner and distributor identification",
+        "Market linkage programs and capacity building initiatives",
+        "Cross-border trade facilitation under AfCFTA frameworks"
+      ],
+      "image": "/assets/market-africa-large.jpg"
+    },
+    {
+      "id": "middle-east",
+      "region": "MIDDLE EAST",
+      "subtitle": "A dynamic hub for investment, trade and strategic partnerships.",
+      "overview": "Facilitate commercial relationships and investment dialogue linking Middle Eastern partners with the USA and Africa.",
+      "whoWeSupport": "Gulf institutional investors, family offices, sovereign trade chambers, and international firms expanding into the GCC.",
+      "relevantSectors": [
+        "Sovereign & Private Equity Allocations",
+        "Logistics, Aviation & Trade Hubs",
+        "Clean Energy & Water Infrastructure",
+        "Real Estate & Mega-Development"
+      ],
+      "howWeHelp": [
+        "Institutional representation and chamber network alignment",
+        "Curated investor roundtables and closed-door delegations",
+        "Bilateral commercial deal structuring and co-investment",
+        "Market positioning and strategic stakeholder liaison"
+      ],
+      "image": "/assets/market-middle-east-large.jpg"
+    }
+  ],
+  "disclaimer": "Coverage across selected priority markets is delivered through verified executive relationships and vetted local partners, subject to country-specific regulatory confirmation.",
+  "cta": {
+    "title": "Request a Market Conversation",
+    "subtitle": "Speak with our advisory team regarding your target corridor and strategic objectives.",
+    "buttonText": "Discuss Market Entry",
+    "buttonHref": "/contact"
+  }
+}

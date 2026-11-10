@@ -1,0 +1,50 @@
+{
+  "name": "Teba Connects",
+  "shortName": "TC",
+  "headline": "Bridging Markets. Building Futures.",
+  "subheadline": "Turning market ambitions into sustainable cross-border growth.",
+  "eyebrow": "GLOBAL BUSINESS ADVISORY | MARKET ENTRY | STRATEGIC REPRESENTATION",
+  "taglinePill": "CONNECT | EXPAND | DOMINATE",
+  "corridor": "USA | AFRICA | MIDDLE EAST",
+  "description": "Teba Connects is a US headquartered global business advisory and market development Firm that helps organizations enter new markets, build strategic partnerships and accelerate cross-border growth. With deep regional expertise and a trusted network across the USA, Africa and the Middle East, we turn connections into opportunities and ambitions into sustainable impact.",
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about-us" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Global Markets", "href": "/global-markets" },
+    { "label": "Partnerships", "href": "/partnerships" },
+    { "label": "Events", "href": "/events" },
+    { "label": "Insights", "href": "/insights" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "ctaButton": {
+    "label": "Book a Consultation",
+    "href": "/contact"
+  },
+  "contact": {
+    "offices": [
+      { "country": "USA", "location": "Virginia, USA", "role": "Global Headquarters" },
+      { "country": "Ethiopia", "location": "Addis Ababa, Ethiopia", "role": "Africa & Horn of Africa Hub" }
+    ],
+    "emails": [
+      "teba.molla@tebaconnects.com",
+      "info@tebaconnects.com"
+    ],
+    "phones": [
+      { "label": "USA", "number": "+1 206 850 0926" },
+      { "label": "Ethiopia", "number": "+251 912 689 532" }
+    ],
+    "website": "tebaconnects.com",
+    "socials": {
+      "linkedin": "https://linkedin.com/company/tebaconnects"
+    }
+  },
+  "theme": {
+    "colors": {
+      "signatureRed": "#B42034",
+      "deepNavy": "#071B31",
+      "paleNeutral": "#F5F5F5",
+      "white": "#FFFFFF"
+    }
+  }
+}

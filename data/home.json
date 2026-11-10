@@ -1,0 +1,243 @@
+{
+  "hero": {
+    "eyebrow": "GLOBAL BUSINESS ADVISORY | MARKET ENTRY | STRATEGIC REPRESENTATION",
+    "headlineBlack": "Bridging Markets.",
+    "headlineRed": "Building Futures.",
+    "subheadline": "Turning market ambitions into sustainable cross-border growth.",
+    "introduction": "Teba Connects is a US headquartered global business advisory and market development Firm that helps organizations enter new markets, build strategic partnerships and accelerate cross-border growth. With deep regional expertise and a trusted network across the USA, Africa and the Middle East, we turn connections into opportunities and ambitions into sustainable impact.",
+    "taglinePill": "CONNECT | EXPAND | DOMINATE",
+    "primaryCta": {
+      "label": "Explore Our Services",
+      "href": "/services"
+    },
+    "secondaryCta": {
+      "label": "Partner With Us",
+      "href": "/partnerships"
+    },
+    "image": "/assets/founder-hero.jpg",
+    "imageAlt": "Teba H. Molla - Founder & CEO (Red Blazer Original Portrait)"
+  },
+  "aboutIntro": {
+    "title": "Why Teba Connects Exists",
+    "headline": "Bridging the Gap Between Opportunity and Execution.",
+    "lead": "International growth requires more than introductions: it takes market understanding, trusted stakeholders and sustained engagement.",
+    "description": "Teba Connects was established to help close the gap between market opportunities and the relationships, institutional understanding and execution support required to pursue them. Organizations entering unfamiliar markets need credible partners, local intelligence and consistent follow-through—not introductions alone.",
+    "cta": {
+      "label": "Learn More About Our Firm",
+      "href": "/about-us"
+    }
+  },
+  "coreServices": {
+    "title": "Five Core Services",
+    "subtitle": "Tailored advisory and business development support for organizations navigating international growth.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Strategic Representation",
+        "summary": "Local presence, relationship management and stakeholder engagement.",
+        "icon": "briefcase",
+        "href": "/services#strategic-representation"
+      },
+      {
+        "number": "02",
+        "title": "Market Entry & Expansion",
+        "summary": "Market intelligence, partner mapping and go-to-market support.",
+        "icon": "trending-up",
+        "href": "/services#market-entry"
+      },
+      {
+        "number": "03",
+        "title": "Business Development",
+        "summary": "Opportunity identification, partnership development and growth pipelines.",
+        "icon": "compass",
+        "href": "/services#business-development"
+      },
+      {
+        "number": "04",
+        "title": "Trade & Investment Facilitation",
+        "summary": "Connecting businesses, investors, governments and institutions.",
+        "icon": "handshake",
+        "href": "/services#trade-investment"
+      },
+      {
+        "number": "05",
+        "title": "Events & Market Promotion",
+        "summary": "Business forums, delegations, investor roundtables and showcases.",
+        "icon": "calendar",
+        "href": "/services#events-promotion"
+      }
+    ]
+  },
+  "markets": {
+    "title": "Three Connected Markets. One Strategic Bridge.",
+    "subtitle": "Connecting high-potential commercial corridors across North America, Africa, and the Arabian Gulf.",
+    "items": [
+      {
+        "id": "usa",
+        "region": "USA",
+        "subtitle": "A gateway to global capital, innovation and strategic markets.",
+        "description": "Support international organizations engaging with the U.S. market and U.S. businesses exploring Africa and the Middle East.",
+        "href": "/global-markets#usa",
+        "image": "/assets/market-usa.jpg"
+      },
+      {
+        "id": "africa",
+        "region": "AFRICA",
+        "subtitle": "High-growth markets with vast opportunities across key sectors.",
+        "description": "Connect organizations with market insight, stakeholders and opportunities in selected African markets, subject to country-specific validation.",
+        "href": "/global-markets#africa",
+        "image": "/assets/market-africa.jpg"
+      },
+      {
+        "id": "middle-east",
+        "region": "MIDDLE EAST",
+        "subtitle": "A dynamic hub for investment, trade and strategic partnerships.",
+        "description": "Facilitate commercial relationships and investment dialogue linking Middle Eastern partners with the USA and Africa.",
+        "href": "/global-markets#middle-east",
+        "image": "/assets/market-middle-east.jpg"
+      }
+    ]
+  },
+  "founderPreview": {
+    "headline": "Experience That Opens Doors. Relationships That Create Opportunities.",
+    "name": "Teba H. Molla",
+    "role": "Founder & CEO, Teba Connects",
+    "bio": "A global connector with extensive experience in international trade, investment facilitation and strategic representation. Former Chief Representative, Dubai International Chamber for Ethiopia and the Horn of Africa, with a proven track record of building partnerships and unlocking opportunities across global markets.",
+    "quote": "I believe in the power of connections to create opportunities, empower people and drive sustainable growth across borders.",
+    "image": "/assets/founder-portrait.jpg",
+    "cta": {
+      "label": "Meet Our Founder",
+      "href": "/about-us#founder"
+    }
+  },
+  "strategicPartnerships": {
+    "headline": "Strategic Partnerships. Shared Opportunities. Lasting Impact.",
+    "subtitle": "We connect businesses, investors, institutions and governments to advance market access, collaboration and sustainable growth.",
+    "categories": [
+      {
+        "id": "chambers",
+        "title": "Chambers & Business Associations",
+        "description": "Bilateral chamber representation, business council management, and trade mission facilitation.",
+        "icon": "landmark",
+        "status": "Verified & Active"
+      },
+      {
+        "id": "investment",
+        "title": "Investment & Financial Institutions",
+        "description": "Commercial alliances, private equity matchmaking, debt syndication, and deal structuring support.",
+        "icon": "credit-card",
+        "status": "Verified & Active"
+      },
+      {
+        "id": "technology",
+        "title": "Technology & Innovation",
+        "description": "Cross-border tech transfer, enterprise digitalization, and innovation ecosystem partnerships.",
+        "icon": "cpu",
+        "status": "Collaborative Network"
+      },
+      {
+        "id": "trade-events",
+        "title": "Trade, Exhibitions & Market Promotion",
+        "description": "Official trade delegations, international country pavilions, and curated business showcases.",
+        "icon": "calendar",
+        "status": "Verified & Active"
+      },
+      {
+        "id": "institutional",
+        "title": "Development & Institutional Partnerships",
+        "description": "Joint bilateral initiatives for SME capacity building, youth linkage, and women empowerment.",
+        "icon": "heart-handshake",
+        "status": "Strategic Engagement"
+      }
+    ],
+    "cta": {
+      "label": "Explore Partnership Opportunities",
+      "href": "/partnerships"
+    }
+  },
+  "advantage": {
+    "headline": "The Teba Connects Advantage",
+    "supporting": "More than connections. A pathway to opportunities.",
+    "pillars": [
+      {
+        "id": "market-access",
+        "title": "Market Access",
+        "description": "Navigate priority markets with insight and local context.",
+        "icon": "globe"
+      },
+      {
+        "id": "strategic-relationships",
+        "title": "Strategic Relationships",
+        "description": "Reach the right people, investors and decision-makers.",
+        "icon": "users"
+      },
+      {
+        "id": "on-the-ground-execution",
+        "title": "On-the-Ground Execution",
+        "description": "Move from introductions to implementation.",
+        "icon": "gear"
+      }
+    ]
+  },
+  "keySectors": {
+    "title": "Key Focus Sectors",
+    "disclaimer": "Priority focus areas aligned with current bilateral trade, investment, and market development programs.",
+    "items": [
+      { "id": "green-mobility", "title": "Green Mobility & Clean Energy", "icon": "leaf" },
+      { "id": "manufacturing", "title": "Manufacturing", "icon": "factory" },
+      { "id": "tech-digital", "title": "Technology & Digital Transformation", "icon": "cpu" },
+      { "id": "agriculture", "title": "Agriculture", "icon": "sprout" },
+      { "id": "real-estate", "title": "Real Estate & Infrastructure", "icon": "building" },
+      { "id": "financial-services", "title": "Financial Services", "icon": "credit-card" },
+      { "id": "tourism-hospitality", "title": "Tourism & Hospitality", "icon": "hotel" },
+      { "id": "women-youth", "title": "Women & Youth Entrepreneurship", "icon": "heart-handshake" },
+      { "id": "mining", "title": "Mining", "icon": "pickaxe" },
+      { "id": "logistics-aviation", "title": "Logistics & Aviation", "icon": "plane" }
+    ]
+  },
+  "featuredEvents": {
+    "title": "Featured Events & Convenings",
+    "subtitle": "Verified business forums, trade delegations, and investor roundtables.",
+    "items": [
+      {
+        "id": "agmex",
+        "badge": "UPCOMING 2026",
+        "title": "AGMEX — Green Mobility & Energy Expo",
+        "location": "Addis Ababa, Ethiopia",
+        "description": "Africa's leading platform for clean transport, renewable technology, and energy transition dialogue.",
+        "href": "/events#agmex",
+        "image": "/assets/event-agmex.jpg"
+      },
+      {
+        "id": "cawee",
+        "badge": "FLAGSHIP PROGRAM",
+        "title": "CAWEE — Market Linkage Program",
+        "location": "Regional / Ethiopia",
+        "description": "Export readiness and structured international market linkage connecting female entrepreneurs and SMEs.",
+        "href": "/events#cawee",
+        "image": "/assets/event-cawee.jpg"
+      },
+      {
+        "id": "africa-investment-circle",
+        "badge": "Q2 2026",
+        "title": "Africa Investment Circle — Dubai",
+        "location": "Dubai, UAE",
+        "description": "Exclusive invitation-only forum convening Gulf institutional capital and continental opportunities.",
+        "href": "/events#africa-investment-circle",
+        "image": "/assets/event-dubai.jpg"
+      }
+    ]
+  },
+  "approachStrip": [
+    "Relationship-Driven",
+    "Strategically Focused",
+    "Globally Connected",
+    "Execution-Oriented"
+  ],
+  "closingCta": {
+    "title": "Let’s Turn Opportunities Into Impact",
+    "subtitle": "Schedule an executive consultation to discuss your market entry, strategic representation, or investment priorities.",
+    "buttonText": "Book a Consultation",
+    "buttonHref": "/contact"
+  }
+}

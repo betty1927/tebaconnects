@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "eyebrow": "MARKET INTELLIGENCE",
+    "headlineBlack": "Market Intelligence",
+    "headlineRed": "for Better Decisions.",
+    "introduction": "Practical perspectives on market entry, cross-border partnerships, trade and investment across the USA, Africa and the Middle East.",
+    "breadcrumbs": [
+      { "label": "Home", "href": "/" },
+      { "label": "Insights", "href": "/insights" }
+    ]
+  },
+  "categories": [
+    "All Insights",
+    "Market Entry & Expansion",
+    "Trade & Investment",
+    "Business Development & Partnerships",
+    "Events & Delegations",
+    "Sector Perspectives"
+  ],
+  "featuredArticle": {
+    "id": "ethiopia-gulf-investment-outlook-2026",
+    "badge": "EXECUTIVE BRIEFING",
+    "title": "Ethiopia-Gulf Investment Outlook 2026: Capital Flows, Infrastructure Corridors & Strategic Realignment",
+    "date": "November 2026",
+    "author": "Teba H. Molla",
+    "market": "Middle East • Africa",
+    "category": "Trade & Investment",
+    "readTime": "8 min read",
+    "excerpt": "An in-depth analysis examining how shifting Gulf sovereign strategies, clean mobility mandates, and logistics corridor expansion are creating unprecedented bilateral deal flow between East Africa and the GCC.",
+    "keyTakeaways": [
+      "Bilateral trade pacts are accelerating GCC sovereign capital deployment into East African renewables and logistics.",
+      "Regulatory reforms in currency and investment regimes are improving cross-border repatriation clarity.",
+      "Green energy and agro-processing represent the highest immediate yield sectors for joint ventures."
+    ],
+    "sourceReferences": "Dubai International Chamber Trade Data, African Development Bank 2026 Economic Outlook, GCC Sovereign Fund Disclosures.",
+    "ctaText": "Discuss This Market Corridor",
+    "image": "/assets/insight-featured.jpg",
+    "slug": "/contact?inquiry=Market%20Entry%20&%20Expansion"
+  },
+  "articles": [
+    {
+      "id": "green-mobility-africa",
+      "title": "Green Mobility in Africa: Building Sustainable Transport Corridors",
+      "date": "October 2026",
+      "author": "Teba Connects Advisory",
+      "market": "Africa",
+      "category": "Sector Perspectives",
+      "readTime": "6 min read",
+      "excerpt": "Exploring tariff incentives, EV assembly infrastructure, and public transit modernization driving the green transition across Sub-Saharan Africa.",
+      "keyTakeaways": [
+        "Government incentives for electric two- and three-wheelers are triggering local assembly demand.",
+        "Grid capacity and charging infrastructure present critical PPP co-investment opportunities."
+      ],
+      "sourceReferences": "AGMEX Continental Policy Paper, UNEP Electric Mobility Study.",
+      "ctaText": "Explore Sector Opportunities",
+      "image": "/assets/market-africa.jpg",
+      "slug": "/contact?inquiry=Market%20Entry%20&%20Expansion"
+    },
+    {
+      "id": "cross-border-partnerships-guide",
+      "title": "Beyond Introductions: The Mechanics of Durable Cross-Border Commercial Partnerships",
+      "date": "October 2026",
+      "author": "Teba H. Molla",
+      "market": "USA • Middle East • Africa",
+      "category": "Business Development & Partnerships",
+      "readTime": "5 min read",
+      "excerpt": "Why over 70% of initial international trade introductions stall without structured commercial governance, local alignment, and on-the-ground execution.",
+      "keyTakeaways": [
+        "Senior-level alignment must be complemented by operational milestone tracking.",
+        "Local regulatory compliance and vetted counterparty due diligence cannot be shortcut."
+      ],
+      "sourceReferences": "Teba Connects Advisory Case Frameworks.",
+      "ctaText": "Consult Our Team",
+      "image": "/assets/market-usa.jpg",
+      "slug": "/contact?inquiry=Strategic%20Representation"
+    },
+    {
+      "id": "women-youth-sme-linkages",
+      "title": "Unlocking Export Corridors for Female Entrepreneurs and High-Growth SMEs",
+      "date": "September 2026",
+      "author": "Teba Connects Advisory",
+      "market": "Africa • USA",
+      "category": "Market Entry & Expansion",
+      "readTime": "5 min read",
+      "excerpt": "How structured market linkage programs, trade finance, and export certifications are opening lucrative North American retail channels for women-led enterprises.",
+      "keyTakeaways": [
+        "Capacity building must integrate direct buyer access with trade finance facilitation.",
+        "Standards compliance is the decisive determinant of long-term export longevity."
+      ],
+      "sourceReferences": "CAWEE Enterprise Survey, US-Africa Trade Hub Analysis.",
+      "ctaText": "Support SME Programs",
+      "image": "/assets/event-cawee.jpg",
+      "slug": "/contact?inquiry=Trade%20&%20Investment%20Facilitation"
+    }
+  ],
+  "disclaimer": "Insights and analysis provided by Teba Connects are intended as strategic commentary and do not constitute formal legal or financial offering memoranda.",
+  "cta": {
+    "title": "Talk to Our Team About Your Market Priorities",
+    "subtitle": "Get tailored intelligence and on-the-ground clarity on your target market corridor.",
+    "buttonText": "Schedule a Market Briefing",
+    "buttonHref": "/contact"
+  }
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-red: #B42034;
+  --primary-navy: #071B31;
+  --pale-neutral: #F5F5F5;
+}
+
+body {
+  color: #071B31;
+  background-color: #FFFFFF;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
