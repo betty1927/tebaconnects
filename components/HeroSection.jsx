@@ -14,7 +14,7 @@ export default function HeroSection({
   taglinePill = null, // e.g. "CONNECT | EXPAND | DOMINATE"
   primaryCta = { label: 'Explore Our Services', href: '/services' },
   secondaryCta = { label: 'Partner With Us', href: '/partnerships' },
-  image = '/assets/founder-hero.jpg',
+  image = '/assets/hero-teba-skyline-perfect.png',
   imageAlt = 'Teba H. Molla - Founder & CEO',
   isHome = false
 }) {
@@ -44,21 +44,21 @@ export default function HeroSection({
           </nav>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center min-h-[500px] lg:min-h-[560px] py-10 lg:py-0">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center min-h-[500px] lg:min-h-[560px] py-8 lg:py-0">
           
           {/* Left Column: Typography & CTAs (Exact Mockup Layout) */}
-          <div className="lg:col-span-6 xl:col-span-7 flex flex-col justify-center space-y-5 lg:pr-6 z-10">
+          <div className="lg:col-span-7 flex flex-col justify-center space-y-4 lg:pr-6 z-10">
             
             {/* Eyebrow kicker */}
             {kicker && (
               <div className="inline-flex items-center">
-                <span className="text-[11px] sm:text-xs font-bold tracking-[0.2em] text-[#071B31] uppercase">
+                <span className="text-[11px] sm:text-xs font-bold tracking-[0.22em] text-[#071B31] uppercase">
                   {kicker}
                 </span>
               </div>
             )}
 
-            {/* Headline with Two-Tone Styling */}
+            {/* Headline with Two-Tone Editorial Serif Styling */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.35rem] font-serif font-bold text-[#071B31] leading-[1.12] tracking-tight">
               {titleBlack && <span className="block text-[#071B31]">{titleBlack}</span>}
               {titleRed && <span className="block text-[#B42034]">{titleRed}</span>}
@@ -67,15 +67,22 @@ export default function HeroSection({
 
             {/* Subheadline */}
             {description && (
-              <p className="text-base sm:text-lg text-gray-600 max-w-lg font-normal leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-700 font-medium leading-relaxed max-w-xl">
                 {description}
+              </p>
+            )}
+
+            {/* Hero Introduction */}
+            {introduction && (
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed max-w-xl font-normal">
+                {introduction}
               </p>
             )}
 
             {/* Tagline Pill (CONNECT | EXPAND | DOMINATE) */}
             {taglinePill && (
               <div className="pt-1">
-                <span className="text-xs font-bold tracking-[0.28em] text-[#071B31] uppercase font-sans">
+                <span className="text-xs font-bold tracking-[0.28em] text-[#B42034] uppercase font-sans">
                   {taglinePill}
                 </span>
               </div>
@@ -83,7 +90,7 @@ export default function HeroSection({
 
             {/* Action Buttons */}
             {(primaryCta || secondaryCta) && (
-              <div className="flex flex-wrap items-center gap-3.5 pt-3">
+              <div className="flex flex-wrap items-center gap-3.5 pt-2">
                 {primaryCta && (
                   <Link
                     href={primaryCta.href}
@@ -107,11 +114,11 @@ export default function HeroSection({
           </div>
 
           {/* Right Column: Hero Visual Proportion (Matching Mockup Composition) */}
-          <div className="lg:col-span-6 xl:col-span-5 relative h-full flex items-end justify-center lg:justify-end">
-            <div className="relative w-full max-w-lg lg:max-w-none h-[380px] sm:h-[460px] lg:h-[540px] flex items-end justify-end overflow-hidden">
+          <div className="lg:col-span-5 relative h-full flex items-end justify-center lg:justify-end">
+            <div className="relative w-full max-w-lg lg:max-w-none h-[400px] sm:h-[480px] lg:h-[550px] flex items-end justify-end overflow-hidden">
               
               {/* Soft left gradient blend so the skyline melts into the white background on desktop */}
-              <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white via-white/70 to-transparent z-10 hidden lg:block pointer-events-none" />
+              <div className="absolute inset-y-0 left-0 w-28 bg-gradient-to-r from-white via-white/80 to-transparent z-10 hidden lg:block pointer-events-none" />
 
               {/* The Hero Visual */}
               <SafeImage
@@ -121,7 +128,7 @@ export default function HeroSection({
               />
 
               {/* Subtle bottom fade */}
-              <div className="absolute inset-x-0 bottom-0 h-6 bg-gradient-to-t from-white to-transparent pointer-events-none" />
+              <div className="absolute inset-x-0 bottom-0 h-4 bg-gradient-to-t from-white to-transparent pointer-events-none" />
             </div>
           </div>
 

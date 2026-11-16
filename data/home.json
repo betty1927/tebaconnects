@@ -14,10 +14,34 @@
       "label": "Partner With Us",
       "href": "/partnerships"
     },
-    "image": "/assets/founder-hero.jpg",
-    "imageAlt": "Teba H. Molla - Founder & CEO (Red Blazer Original Portrait)"
+    "image": "/assets/hero-teba-skyline-perfect.png",
+    "imageAlt": "Teba H. Molla - Founder & CEO with Dubai Skyline"
   },
-  "aboutIntro": {
+  "whyTebaConnects": {
+    "title": "Why Teba Connects",
+    "subtitle": "Navigating complex global corridors with clarity, senior relationships, and accountable delivery.",
+    "pillars": [
+      {
+        "id": "market-access",
+        "title": "Market Access",
+        "description": "Navigate priority markets with insight and local context.",
+        "icon": "globe"
+      },
+      {
+        "id": "strategic-relationships",
+        "title": "Strategic Relationships",
+        "description": "Reach the right people, investors and decision-makers.",
+        "icon": "users"
+      },
+      {
+        "id": "on-the-ground-execution",
+        "title": "On-the-Ground Execution",
+        "description": "Move from introductions to implementation.",
+        "icon": "gear"
+      }
+    ]
+  },
+  "whyTebaConnectsExists": {
     "title": "Why Teba Connects Exists",
     "headline": "Bridging the Gap Between Opportunity and Execution.",
     "lead": "International growth requires more than introductions: it takes market understanding, trusted stakeholders and sustained engagement.",
@@ -28,7 +52,7 @@
     }
   },
   "coreServices": {
-    "title": "Five Core Services",
+    "title": "Our Core Services",
     "subtitle": "Tailored advisory and business development support for organizations navigating international growth.",
     "items": [
       {
@@ -69,7 +93,7 @@
     ]
   },
   "markets": {
-    "title": "Three Connected Markets. One Strategic Bridge.",
+    "title": "Our Markets",
     "subtitle": "Connecting high-potential commercial corridors across North America, Africa, and the Arabian Gulf.",
     "items": [
       {
@@ -98,90 +122,9 @@
       }
     ]
   },
-  "founderPreview": {
-    "headline": "Experience That Opens Doors. Relationships That Create Opportunities.",
-    "name": "Teba H. Molla",
-    "role": "Founder & CEO, Teba Connects",
-    "bio": "A global connector with extensive experience in international trade, investment facilitation and strategic representation. Former Chief Representative, Dubai International Chamber for Ethiopia and the Horn of Africa, with a proven track record of building partnerships and unlocking opportunities across global markets.",
-    "quote": "I believe in the power of connections to create opportunities, empower people and drive sustainable growth across borders.",
-    "image": "/assets/founder-portrait.jpg",
-    "cta": {
-      "label": "Meet Our Founder",
-      "href": "/about-us#founder"
-    }
-  },
-  "strategicPartnerships": {
-    "headline": "Strategic Partnerships. Shared Opportunities. Lasting Impact.",
-    "subtitle": "We connect businesses, investors, institutions and governments to advance market access, collaboration and sustainable growth.",
-    "categories": [
-      {
-        "id": "chambers",
-        "title": "Chambers & Business Associations",
-        "description": "Bilateral chamber representation, business council management, and trade mission facilitation.",
-        "icon": "landmark",
-        "status": "Verified & Active"
-      },
-      {
-        "id": "investment",
-        "title": "Investment & Financial Institutions",
-        "description": "Commercial alliances, private equity matchmaking, debt syndication, and deal structuring support.",
-        "icon": "credit-card",
-        "status": "Verified & Active"
-      },
-      {
-        "id": "technology",
-        "title": "Technology & Innovation",
-        "description": "Cross-border tech transfer, enterprise digitalization, and innovation ecosystem partnerships.",
-        "icon": "cpu",
-        "status": "Collaborative Network"
-      },
-      {
-        "id": "trade-events",
-        "title": "Trade, Exhibitions & Market Promotion",
-        "description": "Official trade delegations, international country pavilions, and curated business showcases.",
-        "icon": "calendar",
-        "status": "Verified & Active"
-      },
-      {
-        "id": "institutional",
-        "title": "Development & Institutional Partnerships",
-        "description": "Joint bilateral initiatives for SME capacity building, youth linkage, and women empowerment.",
-        "icon": "heart-handshake",
-        "status": "Strategic Engagement"
-      }
-    ],
-    "cta": {
-      "label": "Explore Partnership Opportunities",
-      "href": "/partnerships"
-    }
-  },
-  "advantage": {
-    "headline": "The Teba Connects Advantage",
-    "supporting": "More than connections. A pathway to opportunities.",
-    "pillars": [
-      {
-        "id": "market-access",
-        "title": "Market Access",
-        "description": "Navigate priority markets with insight and local context.",
-        "icon": "globe"
-      },
-      {
-        "id": "strategic-relationships",
-        "title": "Strategic Relationships",
-        "description": "Reach the right people, investors and decision-makers.",
-        "icon": "users"
-      },
-      {
-        "id": "on-the-ground-execution",
-        "title": "On-the-Ground Execution",
-        "description": "Move from introductions to implementation.",
-        "icon": "gear"
-      }
-    ]
-  },
   "keySectors": {
-    "title": "Key Focus Sectors",
-    "disclaimer": "Priority focus areas aligned with current bilateral trade, investment, and market development programs.",
+    "title": "Key Sectors",
+    "disclaimer": "These are focus areas, not claims of completed projects.",
     "items": [
       { "id": "green-mobility", "title": "Green Mobility & Clean Energy", "icon": "leaf" },
       { "id": "manufacturing", "title": "Manufacturing", "icon": "factory" },
@@ -196,13 +139,14 @@
     ]
   },
   "featuredEvents": {
-    "title": "Featured Events & Convenings",
-    "subtitle": "Verified business forums, trade delegations, and investor roundtables.",
+    "title": "Featured Events",
+    "subtitle": "Confirmed upcoming opportunities and verified business platforms.",
     "items": [
       {
         "id": "agmex",
         "badge": "UPCOMING 2026",
-        "title": "AGMEX — Green Mobility & Energy Expo",
+        "title": "AGMEX",
+        "subtitle": "Green Mobility & Energy",
         "location": "Addis Ababa, Ethiopia",
         "description": "Africa's leading platform for clean transport, renewable technology, and energy transition dialogue.",
         "href": "/events#agmex",
@@ -210,10 +154,11 @@
       },
       {
         "id": "cawee",
-        "badge": "FLAGSHIP PROGRAM",
-        "title": "CAWEE — Market Linkage Program",
+        "badge": "PROGRAM",
+        "title": "CAWEE",
+        "subtitle": "Market Linkage Program",
         "location": "Regional / Ethiopia",
-        "description": "Export readiness and structured international market linkage connecting female entrepreneurs and SMEs.",
+        "description": "Structured market linkage connecting export-ready women entrepreneurs and SMEs with international markets.",
         "href": "/events#cawee",
         "image": "/assets/event-cawee.jpg"
       },
@@ -221,6 +166,7 @@
         "id": "africa-investment-circle",
         "badge": "Q2 2026",
         "title": "Africa Investment Circle — Dubai",
+        "subtitle": "Dubai, UAE",
         "location": "Dubai, UAE",
         "description": "Exclusive invitation-only forum convening Gulf institutional capital and continental opportunities.",
         "href": "/events#africa-investment-circle",
@@ -228,11 +174,69 @@
       }
     ]
   },
+  "founderPreview": {
+    "title": "Meet Our Founder & CEO",
+    "headline": "Experience That Opens Doors. Relationships That Create Opportunities.",
+    "name": "Teba H. Molla",
+    "role": "Founder & CEO, Teba Connects",
+    "bio": "A global connector with extensive experience in international trade, investment facilitation and strategic representation. Former Chief Representative, Dubai International Chamber for Ethiopia and the Horn of Africa, with a proven track record of building partnerships and unlocking opportunities across global markets.",
+    "quote": "I believe in the power of connections to create opportunities, empower people and drive sustainable growth across borders.",
+    "image": "/assets/founder-portrait.jpg",
+    "cta": {
+      "label": "Meet Our Founder",
+      "href": "/about-us#founder"
+    }
+  },
+  "strategicPartnerships": {
+    "title": "Strategic Partnerships & Initiatives",
+    "subtitle": "We collaborate with verified institutional partners to support market entry, investment facilitation, trade promotion and capacity building across the USA, Africa and the Middle East.",
+    "categories": [
+      {
+        "id": "chambers",
+        "title": "Chambers & Trade Institutions",
+        "description": "Bilateral chamber representation, business council management, and trade mission facilitation.",
+        "icon": "landmark",
+        "status": "Authorized Scope"
+      },
+      {
+        "id": "investment",
+        "title": "Financial Institutions & Investors",
+        "description": "Investment facilitation, debt and equity matchmaking, and cross-border deal structuring.",
+        "icon": "credit-card",
+        "status": "Authorized Scope"
+      },
+      {
+        "id": "technology",
+        "title": "Technology & Innovation Partners",
+        "description": "Cross-border tech transfer, enterprise digitalization, and innovation ecosystem partnerships.",
+        "icon": "cpu",
+        "status": "Authorized Scope"
+      },
+      {
+        "id": "trade-events",
+        "title": "Trade Exhibitions & Event Organizers",
+        "description": "Official trade delegations, international country pavilions, and curated business showcases.",
+        "icon": "calendar",
+        "status": "Authorized Scope"
+      },
+      {
+        "id": "development",
+        "title": "Development Institutions",
+        "description": "Joint bilateral initiatives for SME capacity building, youth linkage, and women empowerment.",
+        "icon": "heart-handshake",
+        "status": "Authorized Scope"
+      }
+    ],
+    "cta": {
+      "label": "Partner With Us",
+      "href": "/partnerships"
+    }
+  },
   "approachStrip": [
-    "Relationship-Driven",
-    "Strategically Focused",
-    "Globally Connected",
-    "Execution-Oriented"
+    { "title": "Relationship-Driven", "icon": "handshake" },
+    { "title": "Strategically Focused", "icon": "compass" },
+    { "title": "Globally Connected", "icon": "globe" },
+    { "title": "Execution-Oriented", "icon": "gear" }
   ],
   "closingCta": {
     "title": "Let’s Turn Opportunities Into Impact",

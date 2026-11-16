@@ -32,8 +32,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           
           {/* Official TC Monogram Logo */}
-          <Link href="/" className="flex items-center group transition-transform group-hover:scale-105">
-            <Logo className="h-10 sm:h-11" showText={true} />
+          <Link href="/" className="flex items-center group transition-transform group-hover:scale-105" aria-label="Teba Connects Home">
+            <Logo className="h-10 sm:h-11" showText={false} />
           </Link>
 
           {/* Desktop Navigation */}

@@ -11,14 +11,14 @@ import homeData from '../data/home.json';
 export default function HomePage() {
   const {
     hero,
-    aboutIntro,
+    whyTebaConnects,
+    whyTebaConnectsExists,
     coreServices,
     markets,
-    founderPreview,
-    strategicPartnerships,
-    advantage,
     keySectors,
     featuredEvents,
+    founderPreview,
+    strategicPartnerships,
     approachStrip,
     closingCta
   } = homeData;
@@ -38,46 +38,37 @@ export default function HomePage() {
         secondaryCta={hero.secondaryCta}
         image={hero.image}
         imageAlt={hero.imageAlt}
+        isHome={true}
       />
 
-      {/* 2. ABOUT TEBA CONNECTS & WHY WE EXIST */}
+      {/* 2. WHY TEBA CONNECTS (Three Core Value Pillars - Placed Directly Under Hero as in Mockup) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-[#FAFBFD] rounded-3xl border border-gray-200/90 p-8 sm:p-12 shadow-sm">
-          <div className="max-w-3xl">
-            <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
-              {aboutIntro.title}
-            </span>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#071B31] mt-2 mb-4">
-              {aboutIntro.headline}
-            </h2>
-            <p className="text-base sm:text-lg font-medium text-gray-800 leading-relaxed mb-4">
-              {aboutIntro.lead}
-            </p>
-            <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-6">
-              {aboutIntro.description}
-            </p>
-            <Link
-              href={aboutIntro.cta.href}
-              className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#B42034] hover:bg-[#931828] rounded-full transition-all shadow-sm"
-            >
-              <span>{aboutIntro.cta.label}</span>
-              <Icon name="arrow-right" className="w-4 h-4" />
-            </Link>
+        <div className="bg-white rounded-3xl border border-gray-200/90 shadow-sm p-6 sm:p-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 divide-y md:divide-y-0 md:divide-x divide-gray-100">
+            {whyTebaConnects.pillars.map((pillar) => (
+              <div key={pillar.id} className="pt-6 md:pt-0 md:px-8 first:pt-0 first:pl-0 last:pr-0 flex flex-col items-center md:items-start text-center md:text-left">
+                <div className="w-14 h-14 rounded-2xl bg-red-50 text-[#B42034] flex items-center justify-center mb-4 shadow-xs">
+                  <Icon name={pillar.icon} className="w-7 h-7" />
+                </div>
+                <h3 className="text-xl font-serif font-bold text-[#071B31] mb-2">{pillar.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{pillar.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* 3. FIVE CORE SERVICES */}
+      {/* 3. OUR CORE SERVICES (Five Services Grid - Page 3 Approved Titles) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Capabilities
             </span>
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1">
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#B42034] mt-1">
               {coreServices.title}
             </h2>
-            <p className="text-sm text-gray-600 mt-1">
+            <p className="text-sm text-gray-600 mt-1 max-w-2xl">
               {coreServices.subtitle}
             </p>
           </div>
@@ -107,18 +98,27 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. THREE CONNECTED MARKETS */}
+      {/* 4. OUR MARKETS (Exactly Three Cards: USA | Africa | Middle East) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-8">
-          <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
-            Corridors
-          </span>
-          <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1">
-            {markets.title}
-          </h2>
-          <p className="text-sm text-gray-600 mt-1">
-            {markets.subtitle}
-          </p>
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
+          <div>
+            <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
+              Strategic Corridors
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#B42034] mt-1">
+              {markets.title}
+            </h2>
+            <p className="text-sm text-gray-600 mt-1 max-w-2xl">
+              {markets.subtitle}
+            </p>
+          </div>
+          <Link
+            href="/global-markets"
+            className="mt-3 md:mt-0 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B42034] hover:underline"
+          >
+            <span>Explore All Corridors</span>
+            <Icon name="arrow-right" className="w-4 h-4" />
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -139,7 +139,107 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. MEET OUR FOUNDER (Founder-Led Differentiation) */}
+      {/* 5. WHY TEBA CONNECTS EXISTS (Bridging Opportunity & Execution) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-[#FAFBFD] rounded-3xl border border-gray-200/90 p-8 sm:p-12 shadow-sm relative overflow-hidden">
+          <div className="max-w-3xl">
+            <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
+              {whyTebaConnectsExists.title}
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#071B31] mt-2 mb-4 leading-tight">
+              {whyTebaConnectsExists.headline}
+            </h2>
+            <p className="text-base sm:text-lg font-medium text-gray-800 leading-relaxed mb-4">
+              {whyTebaConnectsExists.lead}
+            </p>
+            <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-6">
+              {whyTebaConnectsExists.description}
+            </p>
+            <Link
+              href={whyTebaConnectsExists.cta.href}
+              className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#B42034] hover:bg-[#931828] rounded-full transition-all shadow-sm"
+            >
+              <span>{whyTebaConnectsExists.cta.label}</span>
+              <Icon name="arrow-right" className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 6. KEY SECTORS (10 Focus Sectors with Focus Area Disclaimer) */}
+      <section className="bg-[#FAFBFD] py-16 border-y border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
+              Sectoral Focus
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#B42034] mt-1">
+              {keySectors.title}
+            </h2>
+            <p className="text-xs text-gray-500 mt-2 italic">
+              {keySectors.disclaimer}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4">
+            {keySectors.items.map((sec) => (
+              <div
+                key={sec.id}
+                className="bg-white rounded-xl p-4 border border-gray-200/90 shadow-xs hover:border-[#B42034] hover:shadow-md transition-all flex flex-col items-center text-center group"
+              >
+                <div className="w-11 h-11 rounded-full bg-red-50 text-[#B42034] flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                  <Icon name={sec.icon} className="w-5 h-5" />
+                </div>
+                <span className="text-xs font-semibold text-gray-800 group-hover:text-[#B42034] leading-tight">
+                  {sec.title}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 7. FEATURED EVENTS (AGMEX | CAWEE | Africa Investment Circle - Dubai) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
+          <div>
+            <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
+              Global Convenings
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#B42034] mt-1">
+              {featuredEvents.title}
+            </h2>
+            <p className="text-sm text-gray-600 mt-1">
+              {featuredEvents.subtitle}
+            </p>
+          </div>
+          <Link
+            href="/events"
+            className="mt-3 md:mt-0 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B42034] hover:underline"
+          >
+            <span>Explore All Events</span>
+            <Icon name="arrow-right" className="w-4 h-4" />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {featuredEvents.items.map((evt) => (
+            <ImageCard
+              key={evt.id}
+              image={evt.image}
+              badge={evt.badge}
+              title={evt.title}
+              subtitle={evt.subtitle || evt.location}
+              description={evt.description}
+              href={evt.href}
+              linkText="Event Details"
+              variant="stacked"
+            />
+          ))}
+        </div>
+      </section>
+
+      {/* 8. MEET OUR FOUNDER & CEO (Senior-Led Differentiation) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center bg-white rounded-3xl border border-gray-200/90 shadow-md p-6 sm:p-10 lg:p-12 relative overflow-hidden">
           
@@ -165,7 +265,7 @@ export default function HomePage() {
           <div className="lg:col-span-7 space-y-5">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
-                Senior-Led Approach
+                {founderPreview.title}
               </span>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#071B31] mt-1">
                 {founderPreview.headline}
@@ -182,7 +282,7 @@ export default function HomePage() {
                 “{founderPreview.quote}”
               </blockquote>
               <div className="text-xs font-bold text-[#B42034] mt-1">
-                — {founderPreview.name}
+                — {founderPreview.name}, Founder & CEO, Teba Connects
               </div>
             </div>
 
@@ -200,15 +300,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. STRATEGIC PARTNERSHIPS */}
+      {/* 9. STRATEGIC PARTNERSHIPS & INITIATIVES */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Ecosystem
             </span>
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1">
-              {strategicPartnerships.headline}
+            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#B42034] mt-1">
+              {strategicPartnerships.title}
             </h2>
             <p className="text-sm text-gray-600 mt-1 max-w-2xl">
               {strategicPartnerships.subtitle}
@@ -242,121 +342,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7. THE TEBA CONNECTS ADVANTAGE (Three Pillars) */}
+      {/* 10. APPROACH STRIP (Dark Navy Strip Matching Mockup Page 3) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-2xl mx-auto mb-10">
-          <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
-            Value Proposition
-          </span>
-          <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1">
-            {advantage.headline}
-          </h2>
-          <p className="text-sm text-gray-600 mt-2">
-            {advantage.supporting}
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 divide-y md:divide-y-0 md:divide-x divide-gray-100 bg-white rounded-2xl border border-gray-200/80 shadow-sm p-6 sm:p-8">
-          {advantage.pillars.map((pillar) => (
-            <div key={pillar.id} className="pt-6 md:pt-0 md:px-6 first:pt-0 first:pl-0 last:pr-0">
-              <div className="w-12 h-12 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center mb-4">
-                <Icon name={pillar.icon} className="w-6 h-6" />
-              </div>
-              <h3 className="text-lg font-bold text-[#071B31] mb-2">{pillar.title}</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">{pillar.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* 8. KEY SECTORS */}
-      <section className="bg-[#FAFBFD] py-16 border-y border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-10">
-            <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
-              Sectoral Focus
-            </span>
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1">
-              {keySectors.title}
-            </h2>
-            <p className="text-xs text-gray-500 mt-2 italic">
-              {keySectors.disclaimer}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4">
-            {keySectors.items.map((sec) => (
-              <div
-                key={sec.id}
-                className="bg-white rounded-xl p-4 border border-gray-200/90 shadow-xs hover:border-[#B42034] hover:shadow-md transition-all flex flex-col items-center text-center group"
-              >
-                <div className="w-10 h-10 rounded-full bg-red-50 text-[#B42034] flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                  <Icon name={sec.icon} className="w-5 h-5" />
-                </div>
-                <span className="text-xs font-semibold text-gray-800 group-hover:text-[#B42034] leading-tight">
-                  {sec.title}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 9. FEATURED EVENTS */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
-          <div>
-            <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
-              Global Convenings
-            </span>
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1">
-              {featuredEvents.title}
-            </h2>
-            <p className="text-sm text-gray-600 mt-1">
-              {featuredEvents.subtitle}
-            </p>
-          </div>
-          <Link
-            href="/events"
-            className="mt-3 md:mt-0 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B42034] hover:underline"
-          >
-            <span>Explore All Events</span>
-            <Icon name="arrow-right" className="w-4 h-4" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {featuredEvents.items.map((evt) => (
-            <ImageCard
-              key={evt.id}
-              image={evt.image}
-              badge={evt.badge}
-              title={evt.title}
-              subtitle={evt.location}
-              description={evt.description}
-              href={evt.href}
-              linkText="Event Details"
-              variant="stacked"
-            />
-          ))}
-        </div>
-      </section>
-
-      {/* 10. APPROACH STRIP */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-6 px-4 bg-[#F5F5F5] rounded-2xl border border-gray-200">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 py-8 px-6 bg-[#071B31] rounded-2xl border border-gray-800 shadow-md">
           {approachStrip.map((item, idx) => (
-            <div key={idx} className="flex items-center justify-center gap-2 text-center">
-              <span className="w-2 h-2 rounded-full bg-[#B42034]" />
-              <span className="text-xs sm:text-sm font-bold text-[#071B31] uppercase tracking-wider">
-                {item}
+            <div key={idx} className="flex flex-col sm:flex-row items-center justify-center gap-3 text-center sm:text-left">
+              <div className="w-10 h-10 rounded-full border border-white/20 bg-white/5 flex items-center justify-center text-white shrink-0">
+                <Icon name={item.icon || 'globe'} className="w-5 h-5 text-red-400" />
+              </div>
+              <span className="text-xs sm:text-sm font-bold text-white tracking-wider">
+                {item.title}
               </span>
             </div>
           ))}
         </div>
       </section>
 
-      {/* CLOSING CTA BANNER */}
+      {/* 11. CLOSING CTA BANNER */}
       <CtaBanner
         title={closingCta.title}
         subtitle={closingCta.subtitle}
