@@ -7,7 +7,9 @@
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Insights", "href": "/insights" }
-    ]
+    ],
+    "image": "/assets/hero-teba-skyline-perfect.png",
+    "imageAlt": "Teba Connects Market Intelligence"
   },
   "categories": [
     "All Insights",
@@ -19,8 +21,10 @@
   ],
   "featuredArticle": {
     "id": "ethiopia-gulf-investment-outlook-2026",
-    "badge": "EXECUTIVE BRIEFING",
-    "title": "Ethiopia-Gulf Investment Outlook 2026: Capital Flows, Infrastructure Corridors & Strategic Realignment",
+    "type": "Verified Opportunity",
+    "typeColor": "emerald",
+    "badge": "FEATURED ANALYSIS",
+    "title": "Ethiopia–Gulf Investment Outlook 2026: Capital Flows, Infrastructure Corridors & Strategic Realignment",
     "date": "November 2026",
     "author": "Teba H. Molla",
     "market": "Middle East • Africa",
@@ -35,11 +39,13 @@
     "sourceReferences": "Dubai International Chamber Trade Data, African Development Bank 2026 Economic Outlook, GCC Sovereign Fund Disclosures.",
     "ctaText": "Discuss This Market Corridor",
     "image": "/assets/insight-featured.jpg",
-    "slug": "/contact?inquiry=Market%20Entry%20&%20Expansion"
+    "slug": "/contact?inquiry=Market%20Entry%20&%20Expansion&topic=Ethiopia-Gulf%20Investment%20Outlook"
   },
   "articles": [
     {
       "id": "green-mobility-africa",
+      "type": "Verified Opportunity",
+      "typeColor": "emerald",
       "title": "Green Mobility in Africa: Building Sustainable Transport Corridors",
       "date": "October 2026",
       "author": "Teba Connects Advisory",
@@ -54,10 +60,12 @@
       "sourceReferences": "AGMEX Continental Policy Paper, UNEP Electric Mobility Study.",
       "ctaText": "Explore Sector Opportunities",
       "image": "/assets/market-africa.jpg",
-      "slug": "/contact?inquiry=Market%20Entry%20&%20Expansion"
+      "slug": "/contact?inquiry=Market%20Entry%20&%20Expansion&topic=Green%20Mobility"
     },
     {
       "id": "cross-border-partnerships-guide",
+      "type": "Strategic Commentary",
+      "typeColor": "blue",
       "title": "Beyond Introductions: The Mechanics of Durable Cross-Border Commercial Partnerships",
       "date": "October 2026",
       "author": "Teba H. Molla",
@@ -69,13 +77,15 @@
         "Senior-level alignment must be complemented by operational milestone tracking.",
         "Local regulatory compliance and vetted counterparty due diligence cannot be shortcut."
       ],
-      "sourceReferences": "Teba Connects Advisory Case Frameworks.",
-      "ctaText": "Consult Our Team",
+      "sourceReferences": "Teba Connects Advisory Case Frameworks & Executive Review.",
+      "ctaText": "Consult Our Team on Partnerships",
       "image": "/assets/market-usa.jpg",
-      "slug": "/contact?inquiry=Strategic%20Representation"
+      "slug": "/contact?inquiry=Strategic%20Representation&topic=Cross-Border%20Partnerships"
     },
     {
       "id": "women-youth-sme-linkages",
+      "type": "Verified Opportunity",
+      "typeColor": "emerald",
       "title": "Unlocking Export Corridors for Female Entrepreneurs and High-Growth SMEs",
       "date": "September 2026",
       "author": "Teba Connects Advisory",
@@ -88,16 +98,36 @@
         "Standards compliance is the decisive determinant of long-term export longevity."
       ],
       "sourceReferences": "CAWEE Enterprise Survey, US-Africa Trade Hub Analysis.",
-      "ctaText": "Support SME Programs",
+      "ctaText": "Support SME Linkage Programs",
       "image": "/assets/event-cawee.jpg",
-      "slug": "/contact?inquiry=Trade%20&%20Investment%20Facilitation"
+      "slug": "/contact?inquiry=Trade%20&%20Investment%20Facilitation&topic=Women%20SME%20Export"
+    },
+    {
+      "id": "designing-trade-delegations",
+      "type": "Strategic Commentary",
+      "typeColor": "blue",
+      "title": "Designing High-Impact Trade Delegations: From Protocols to Binding Agreements",
+      "date": "September 2026",
+      "author": "Teba Connects Advisory",
+      "market": "USA • GCC • Africa",
+      "category": "Events & Delegations",
+      "readTime": "5 min read",
+      "excerpt": "Structuring executive trade missions that transition from symbolic ceremonial meetings to verified commercial pipelines and signed commitments.",
+      "keyTakeaways": [
+        "Rigorous pre-mission counterparty qualification increases deal closure velocity by over 60%.",
+        "Institutional follow-through governance prevents post-delegation relationship decay."
+      ],
+      "sourceReferences": "Global Trade Mission Benchmark Review 2026.",
+      "ctaText": "Plan an Executive Delegation",
+      "image": "/assets/event-dubai.jpg",
+      "slug": "/contact?inquiry=Events%20&%20Trade%20Missions&topic=Trade%20Delegation%20Design"
     }
   ],
-  "disclaimer": "Insights and analysis provided by Teba Connects are intended as strategic commentary and do not constitute formal legal or financial offering memoranda.",
+  "disclaimer": "Insights, commentaries, and analytical briefs provided by Teba Connects are intended as strategic perspectives. Verified opportunities represent active initiatives with institutional partner alignment.",
   "cta": {
     "title": "Talk to Our Team About Your Market Priorities",
-    "subtitle": "Get tailored intelligence and on-the-ground clarity on your target market corridor.",
-    "buttonText": "Schedule a Market Briefing",
+    "subtitle": "Get tailored market intelligence, partner mapping, and on-the-ground clarity on your target cross-border corridor.",
+    "buttonText": "Talk to Our Team",
     "buttonHref": "/contact"
   }
 }
