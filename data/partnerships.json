@@ -1,75 +1,141 @@
 {
   "hero": {
-    "eyebrow": "PARTNERSHIP ECOSYSTEM",
+    "eyebrow": "STRATEGIC PARTNERSHIPS",
     "headlineBlack": "Where Connections",
     "headlineRed": "Become Opportunities.",
     "introduction": "We connect businesses, investors, institutions and governments to advance market access, collaboration and sustainable growth across the USA, Africa and the Middle East.",
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Partnerships", "href": "/partnerships" }
-    ]
+    ],
+    "image": "/assets/hero-teba-skyline-perfect.png",
+    "imageAlt": "Teba Connects Strategic Partnerships"
   },
   "categories": [
     {
       "id": "chambers",
       "number": "01",
-      "title": "Chambers & Business Associations",
-      "focus": "Chamber & Strategic Representation",
-      "description": "Bilateral chamber representation, business council management, and official delegation hosting.",
-      "deliverables": "Representation scope, stakeholder mapping, and bilateral policy advocacy.",
-      "relationshipTiers": "Signed Representation & Strategic Accords",
+      "title": "Chamber & Strategic Representation",
+      "summary": "Bilateral chamber representation, business council management, and official trade mission facilitation.",
+      "focus": "Institutional Presence",
       "icon": "landmark"
     },
     {
-      "id": "financial",
+      "id": "commercial",
       "number": "02",
-      "title": "Investment & Financial Institutions",
-      "focus": "Commercial Alliances & Capital Facilitation",
-      "description": "Connecting institutional capital, sovereign funds, and accredited allocators with verified regional investment projects.",
-      "deliverables": "Investor mapping, deal readiness advisory, and private salon facilitation.",
-      "relationshipTiers": "Verified Alliances & Deal Facilitation Partners",
+      "title": "Commercial Alliances",
+      "summary": "Connecting institutional capital, private equity syndicates, and corporate buyers with qualified cross-border ventures.",
+      "focus": "Capital & Growth",
       "icon": "credit-card"
     },
     {
-      "id": "technology",
+      "id": "trade-investment",
       "number": "03",
-      "title": "Technology & Innovation",
-      "focus": "Cross-Border Ecosystem Transfer",
-      "description": "Accelerating cross-border tech deployment, digital transformation partnerships, and climate innovation transfer.",
-      "deliverables": "Ecosystem matching, pilot facilitation, and corporate partnership structuring.",
-      "relationshipTiers": "Active Collaborative Network",
-      "icon": "cpu"
+      "title": "Trade & Investment Collaboration",
+      "summary": "Packaging verified investment projects, deal readiness support, and cross-corridor market entry pipelines.",
+      "focus": "Market Linkage",
+      "icon": "handshake"
     },
     {
-      "id": "trade-events",
+      "id": "events-exhibitions",
       "number": "04",
-      "title": "Trade, Exhibitions & Market Promotion",
-      "focus": "Events & International Showcases",
-      "description": "Curating high-level trade platforms, country pavilions, and targeted B2B matchmaking programs.",
-      "deliverables": "Delegation curation, pavilion management, and executive event operations.",
-      "relationshipTiers": "Verified Organizing & Co-Host Partners",
+      "title": "Events & Exhibitions",
+      "summary": "Designing, orchestrating, and promoting specialized international expos, country pavilions, and investor roundtables.",
+      "focus": "Global Platforms",
       "icon": "calendar"
     },
     {
       "id": "institutional",
       "number": "05",
-      "title": "Development & Institutional Partnerships",
-      "focus": "Institutional & Sustainable Development",
-      "description": "Joint bilateral initiatives driving inclusive economic growth, female founder linkages, and youth workforce integration.",
-      "deliverables": "Program design, export readiness execution, and measurable impact tracking.",
-      "relationshipTiers": "Institutional MOUs & Engagement Frameworks",
+      "title": "Institutional Partnerships",
+      "summary": "Joint bilateral initiatives driving inclusive economic growth, female founder linkages, and SME export enablement.",
+      "focus": "Sustainable Impact",
       "icon": "heart-handshake"
     }
   ],
+  "partners": [
+    {
+      "id": "cawee",
+      "name": "CAWEE — Market Linkage Program",
+      "category": "Institutional Partnerships",
+      "statusType": "Signed Partner",
+      "statusColor": "emerald",
+      "description": "Long-term collaboration supporting export readiness, international buyer access, and market integration for female entrepreneurs and emerging SMEs.",
+      "market": "Africa / Regional",
+      "sector": "Women & Youth Entrepreneurship",
+      "logoPermission": "Authorized Institutional Partner",
+      "link": "/events#cawee"
+    },
+    {
+      "id": "agmex",
+      "name": "AGMEX — Green Mobility & Energy",
+      "category": "Events & Exhibitions",
+      "statusType": "Signed Partner",
+      "statusColor": "emerald",
+      "description": "Official convening platform bringing together international clean mobility manufacturers, renewable energy providers, and continental stakeholders.",
+      "market": "Africa (Ethiopia) & Global",
+      "sector": "Green Mobility & Clean Energy",
+      "logoPermission": "Authorized Strategic Partner",
+      "link": "/events#agmex"
+    },
+    {
+      "id": "africa-investment-circle",
+      "name": "Africa Investment Circle — Dubai",
+      "category": "Trade & Investment Collaboration",
+      "statusType": "Signed Partner",
+      "statusColor": "emerald",
+      "description": "Exclusive invitation-only investor platform connecting Gulf institutional capital, sovereign funds, and accredited allocators with continental African projects.",
+      "market": "Middle East & Africa",
+      "sector": "Financial Services & Investment",
+      "logoPermission": "Authorized Event Platform",
+      "link": "/events#africa-investment-circle"
+    },
+    {
+      "id": "dubai-chamber-prior",
+      "name": "Dubai International Chamber",
+      "category": "Chamber & Strategic Representation",
+      "statusType": "Prior Engagement",
+      "statusColor": "blue",
+      "description": "Former Chief Representative mandate leading institutional bilateral engagement, trade delegation hosting, and commercial matchmaking across Ethiopia and the Horn of Africa.",
+      "market": "Middle East & Africa",
+      "sector": "Bilateral Trade & Chamber Representation",
+      "logoPermission": "Verified Former Leadership Mandate",
+      "link": "/about-us#founder"
+    },
+    {
+      "id": "us-bilateral-chambers",
+      "name": "U.S. Bilateral Trade & Business Councils",
+      "category": "Chamber & Strategic Representation",
+      "statusType": "Prospective Discussion",
+      "statusColor": "amber",
+      "description": "Ongoing exploratory engagements to structure reciprocal market entry programs and institutional investor missions connecting U.S. markets with East Africa and the GCC.",
+      "market": "USA & Strategic Corridors",
+      "sector": "Strategic Representation & Trade Policy",
+      "logoPermission": "Engagement In Progress",
+      "link": "/contact?inquiry=Chamber%20Representation"
+    },
+    {
+      "id": "gulf-commercial-alliances",
+      "name": "Gulf Institutional & Capital Allocators",
+      "category": "Commercial Alliances",
+      "statusType": "Prospective Discussion",
+      "statusColor": "amber",
+      "description": "Structured commercial dialogues with family offices and private equity syndicates in Dubai and Abu Dhabi exploring co-investment in green energy, real estate, and agribusiness.",
+      "market": "Middle East / UAE",
+      "sector": "Private Equity & Deal Structuring",
+      "logoPermission": "Engagement In Progress",
+      "link": "/contact?inquiry=Commercial%20Alliances"
+    }
+  ],
   "governance": {
-    "title": "Partnership Integrity & Verification",
-    "description": "Teba Connects distinguishes signed partners, prior institutional engagements, and prospective collaborations. All institutional partner marks and relationship descriptions reflect authorized engagements."
+    "title": "Partnership Integrity & Classification",
+    "description": "In strict adherence to governance and brand clarity, Teba Connects explicitly distinguishes signed partners, prior engagements, and prospective discussions. All organization names, relationship scopes, and institutional descriptions reflect verified and authorized engagements."
   },
   "cta": {
     "title": "Explore Partnership Opportunities",
-    "subtitle": "We welcome collaborations with chambers, financial allocators, and industry leaders that create meaningful commercial impact.",
+    "subtitle": "We welcome collaborations with chambers, financial institutions, and industry leaders that create meaningful commercial impact.",
     "primaryButton": "Become a Partner",
-    "secondaryButton": "Explore Collaboration Models",
+    "secondaryButton": "Explore Partnership Opportunities",
     "buttonHref": "/contact?inquiry=Partnership%20Opportunities"
   }
 }
