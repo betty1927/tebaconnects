@@ -8,7 +8,7 @@ export const metadata = {
     default: 'Teba Connects | Global Business Advisory & Strategic Representation',
     template: '%s | Teba Connects'
   },
-  description: 'Teba Connects is a US-headquartered global business advisory and market development Firm that helps organizations enter new markets, build strategic partnerships and accelerate cross-border growth across the USA, Africa and the Middle East.',
+  description: 'Teba Connects is a US headquartered global business advisory and market development Firm that helps organizations enter new markets, build strategic partnerships and accelerate cross-border growth across the USA, Africa and the Middle East.',
   keywords: [
     'Teba Connects',
     'Teba H. Molla',
