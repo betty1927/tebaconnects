@@ -1,14 +1,19 @@
 {
   "hero": {
     "eyebrow": "OUR CORE SERVICES",
-    "headlineBlack": "Strategic Access.",
-    "headlineRed": "Trusted Relationships.",
-    "headlineSecondary": "Cross-Border Execution.",
+    "headlineBlack": "Strategic Access. Trusted Relationships.",
+    "headlineRed": "Cross-Border Execution.",
     "introduction": "Tailored advisory and business development support for organizations navigating international growth.",
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Services", "href": "/services" }
-    ]
+    ],
+    "image": "/assets/hero-teba-skyline-perfect.png",
+    "imageAlt": "Teba Connects Core Advisory Services"
+  },
+  "overview": {
+    "title": "Our Services",
+    "subtitle": "We provide end-to-end advisory and market development support tailored to your goals. Our services are designed to help companies, investors, chambers and institutions navigate new markets, build strategic partnerships and achieve measurable results."
   },
   "services": [
     {
@@ -19,12 +24,12 @@
       "description": "Acting as a trusted in-market extension of international chambers, businesses and institutions in priority markets.",
       "whoWeSupport": "Chambers, companies and institutions.",
       "deliverables": [
-        "Representation scope and strategic positioning",
-        "Stakeholder mapping and senior relationship cultivation",
-        "Executive engagement plan and bilateral outreach",
-        "Ongoing reporting and commercial governance"
+        "Representation scope",
+        "Stakeholder map",
+        "Engagement plan",
+        "Reporting"
       ],
-      "image": "/assets/service-representation.jpg",
+      "image": "/assets/insight-featured.jpg",
       "ctaText": "Discuss This Service"
     },
     {
@@ -35,12 +40,11 @@
       "description": "Practical advisory guiding organizations through commercial feasibility, regulatory landscapes, and local partner matching.",
       "whoWeSupport": "Businesses assessing or entering new markets.",
       "deliverables": [
-        "In-depth market assessment and regulatory review",
-        "Vetted partner and distributor shortlist",
-        "Customized go-to-market entry roadmap",
-        "Local setup facilitation and launch oversight"
+        "Market assessment",
+        "Partner shortlist",
+        "Entry roadmap"
       ],
-      "image": "/assets/service-market-entry.jpg",
+      "image": "/assets/market-middle-east.jpg",
       "ctaText": "Discuss This Service"
     },
     {
@@ -48,15 +52,14 @@
       "number": "03",
       "title": "Business Development",
       "summary": "Opportunity identification, partnership development and growth pipelines.",
-      "description": "Building qualified commercial pipelines and facilitating negotiations that lead to binding partnerships, JVs, and procurement contracts.",
+      "description": "Building qualified commercial pipelines and facilitating introductions that lead to binding partnerships, JVs, and procurement contracts.",
       "whoWeSupport": "Organizations seeking buyers, channels or strategic allies.",
       "deliverables": [
-        "Qualified pipeline of prospective B2B counterparties",
-        "Targeted senior executive introductions",
-        "Engagement facilitation and contract negotiation support",
-        "Systematic pipeline and follow-up tracking"
+        "Pipeline",
+        "Introductions",
+        "Engagement and follow-up tracking"
       ],
-      "image": "/assets/service-business-dev.jpg",
+      "image": "/assets/market-africa.jpg",
       "ctaText": "Discuss This Service"
     },
     {
@@ -64,15 +67,13 @@
       "number": "04",
       "title": "Trade & Investment Facilitation",
       "summary": "Connecting businesses, investors, governments and institutions.",
-      "description": "Unlocking foreign direct investment (FDI) and capital flows across North America, Africa, and the Gulf by packaging opportunities and matching them with accredited allocators.",
+      "description": "Facilitating capital flows across North America, Africa, and the Arabian Gulf by packaging opportunities and matching them with accredited allocators.",
       "whoWeSupport": "Investors, sponsors, chambers and businesses.",
       "deliverables": [
-        "Investor and institutional partner mapping",
-        "Curated investment salons and closed-door deal meetings",
-        "Due diligence liaison and project viability packaging",
-        "Structured opportunity and deal engagement"
+        "Investor/partner mapping",
+        "Meetings and structured opportunity engagement"
       ],
-      "image": "/assets/service-trade-investment.jpg",
+      "image": "/assets/event-dubai.jpg",
       "ctaText": "Discuss This Service"
     },
     {
@@ -83,14 +84,19 @@
       "description": "Designing, orchestrating, and promoting high-impact international platforms that bring together policymakers, industry leaders, and investors.",
       "whoWeSupport": "Exhibitors, institutions, organizers and delegations.",
       "deliverables": [
-        "Turnkey event and forum concept design",
-        "Bespoke trade mission and delegation coordination",
-        "Stakeholder outreach and high-level buyer matchmaking",
-        "Exhibition participation, pavilion management, and sponsorship support"
+        "Event concepts",
+        "Outreach",
+        "Participation and sponsorship support"
       ],
-      "image": "/assets/service-events-promotion.jpg",
+      "image": "/assets/event-agmex.jpg",
       "ctaText": "Discuss This Service"
     }
+  ],
+  "approachStrip": [
+    { "title": "Relationship-Driven", "icon": "handshake" },
+    { "title": "Strategically Focused", "icon": "compass" },
+    { "title": "Globally Connected", "icon": "globe" },
+    { "title": "Execution-Oriented", "icon": "gear" }
   ],
   "cta": {
     "title": "Looking to enter or expand in a specific market?",
