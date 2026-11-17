@@ -1,13 +1,15 @@
 {
   "hero": {
-    "eyebrow": "GET IN TOUCH",
+    "eyebrow": "GET IN TOUCH | CONTACT US",
     "headlineBlack": "Let’s Turn Opportunities",
     "headlineRed": "Into Impact.",
     "introduction": "Whether you are entering a new market, seeking strategic partners, exploring investment opportunities or planning a delegation, we welcome the conversation.",
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Contact", "href": "/contact" }
-    ]
+    ],
+    "image": "/assets/hero-teba-skyline-perfect.png",
+    "imageAlt": "Contact Teba Connects Global Advisory"
   },
   "contactDetails": {
     "emails": [
@@ -18,6 +20,10 @@
       { "region": "USA", "number": "+1 206 850 0926" },
       { "region": "Ethiopia", "number": "+251 912 689 532" }
     ],
+    "website": "tebaconnects.com",
+    "linkedin": "https://www.linkedin.com/in/teba-molla",
+    "linkedinCompany": "https://linkedin.com/company/tebaconnects",
+    "markets": ["USA", "Africa", "Middle East"],
     "offices": [
       {
         "region": "United States",
@@ -27,27 +33,23 @@
       {
         "region": "East Africa",
         "location": "Addis Ababa, Ethiopia",
-        "description": "Continental Hub & Horn of Africa Operations"
+        "description": "Continental Hub & Operations"
       }
-    ],
-    "website": "tebaconnects.com",
-    "linkedin": "https://linkedin.com/company/tebaconnects",
-    "markets": ["USA", "Africa", "Middle East"]
+    ]
   },
   "form": {
     "title": "Send Us an Inquiry",
     "servicesOptions": [
-      "01 Strategic Representation",
-      "02 Market Entry & Expansion",
-      "03 Business Development",
-      "04 Trade & Investment Facilitation",
-      "05 Events & Market Promotion",
-      "General Consultation / Delegation Inquiry"
+      "Strategic Representation",
+      "Market Entry & Expansion",
+      "Business Development",
+      "Trade & Investment Facilitation",
+      "Events & Market Promotion"
     ],
     "marketOptions": [
       "USA",
-      "Africa (East / Pan-African)",
-      "Middle East (GCC / UAE)",
+      "Africa",
+      "Middle East",
       "Cross-Border Corridors (Multi-Region)"
     ],
     "submitButton": "Submit Inquiry / Book a Consultation",

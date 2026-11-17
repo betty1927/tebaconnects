@@ -12,6 +12,7 @@ export default function ContactPage() {
     name: '',
     organization: '',
     workEmail: '',
+    phone: '',
     countryMarket: 'USA',
     serviceOfInterest: form.servicesOptions[0],
     message: '',
@@ -31,41 +32,41 @@ export default function ContactPage() {
   return (
     <div className="space-y-16 sm:space-y-24 pb-16">
       
-      {/* 1. HERO */}
+      {/* 1. HERO SECTION */}
       <HeroSection
         kicker={hero.eyebrow}
         breadcrumbs={hero.breadcrumbs}
         titleBlack={hero.headlineBlack}
         titleRed={hero.headlineRed}
         description={hero.introduction}
-        primaryCta={{ label: "Submit Inquiry", href: "#inquiry-form" }}
-        secondaryCta={{ label: "Our Global Corridors", href: "#offices" }}
-        image="/assets/contact-hero.jpg"
-        imageAlt="Contact Teba Connects Global Advisory"
+        primaryCta={{ label: "Submit Inquiry / Book a Consultation", href: "#inquiry-form" }}
+        secondaryCta={{ label: "View Our Markets", href: "/global-markets" }}
+        image={hero.image}
+        imageAlt={hero.imageAlt}
       />
 
-      {/* 2. SPLIT CONTACT DIRECTORY & FORM */}
+      {/* 2. SPLIT CONTACT DIRECTORY & CONTROLLED FORM */}
       <section id="inquiry-form" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 bg-white rounded-3xl border border-gray-200/90 shadow-md p-6 sm:p-10 lg:p-12">
           
-          {/* Left Column: Direct Contact Lines */}
-          <div id="offices" className="lg:col-span-5 space-y-8 scroll-mt-24">
+          {/* Left Column: Direct Contact Information */}
+          <div className="lg:col-span-5 space-y-8">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
                 Executive Channels
               </span>
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1 mb-3">
-                Direct Contact
+                Contact Information
               </h2>
               <p className="text-sm text-gray-600 leading-relaxed">
-                Connect directly with our senior advisory team across North America, the Horn of Africa, and the Arabian Gulf.
+                Connect directly with our senior advisory team across the United States, Africa, and the Middle East.
               </p>
             </div>
 
             <div className="space-y-6">
               {/* Emails */}
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
                   <Icon name="mail" className="w-5 h-5" />
                 </div>
                 <div>
@@ -80,9 +81,9 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Phones */}
+              {/* Telephones */}
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
                   <Icon name="phone" className="w-5 h-5" />
                 </div>
                 <div>
@@ -97,32 +98,34 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Regional Offices */}
+              {/* Website */}
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center flex-shrink-0">
-                  <Icon name="map-pin" className="w-5 h-5" />
+                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
+                  <Icon name="globe" className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">Offices & Hubs</h4>
-                  {contactDetails.offices.map((loc) => (
-                    <div key={loc.location} className="mb-2">
-                      <div className="text-sm font-bold text-[#071B31]">{loc.location}</div>
-                      <div className="text-xs text-gray-500">{loc.description}</div>
-                    </div>
-                  ))}
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">Website</h4>
+                  <a
+                    href="https://tebaconnects.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-semibold text-[#071B31] hover:text-[#B42034] transition-colors"
+                  >
+                    {contactDetails.website}
+                  </a>
                 </div>
               </div>
 
               {/* Markets */}
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center flex-shrink-0">
-                  <Icon name="globe" className="w-5 h-5" />
+                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
+                  <Icon name="map-pin" className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">Covered Corridors</h4>
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1.5">Target Markets</h4>
                   <div className="flex flex-wrap gap-1.5">
                     {contactDetails.markets.map((m) => (
-                      <span key={m} className="text-xs font-bold px-2 py-0.5 bg-gray-100 text-[#071B31] rounded">
+                      <span key={m} className="text-xs font-bold px-3 py-1 bg-red-50 text-[#B42034] rounded-full border border-red-100">
                         {m}
                       </span>
                     ))}
@@ -132,56 +135,73 @@ export default function ContactPage() {
 
               {/* LinkedIn */}
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
                   <Icon name="linkedin" className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">Corporate Profile</h4>
-                  <a
-                    href={contactDetails.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm font-semibold text-[#B42034] hover:underline"
-                  >
-                    LinkedIn / tebaconnects
-                  </a>
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">LinkedIn</h4>
+                  <div className="space-y-1">
+                    <div>
+                      <a
+                        href={contactDetails.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-semibold text-[#0077B5] hover:underline"
+                      >
+                        Founder Profile: Teba H. Molla
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href={contactDetails.linkedinCompany}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs font-semibold text-[#071B31] hover:text-[#B42034] transition-colors"
+                      >
+                        Company Profile: Teba Connects
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
 
-          {/* Right Column: Controlled Form */}
+          {/* Right Column: Five-Service Controlled Form */}
           <div className="lg:col-span-7 bg-[#FAFBFD] p-6 sm:p-8 rounded-2xl border border-gray-200">
             <h3 className="text-xl font-serif font-bold text-[#071B31] mb-2">
               {form.title}
             </h3>
             <p className="text-xs text-gray-500 mb-6">
-              Complete the fields below to schedule a consultation with our advisory leadership.
+              Complete the verified fields below to schedule a consultation with our senior advisory team.
             </p>
 
             {submitted ? (
-              <div className="p-8 text-center bg-white rounded-2xl border border-green-200 shadow-sm space-y-3">
-                <div className="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto">
+              <div className="p-8 text-center bg-white rounded-2xl border border-emerald-200 shadow-sm space-y-3">
+                <div className="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
                   <Icon name="handshake" className="w-6 h-6" />
                 </div>
                 <h4 className="text-lg font-bold text-[#071B31]">Inquiry Received</h4>
-                <p className="text-sm text-gray-600 max-w-sm mx-auto">
-                  Thank you for contacting Teba Connects. An executive advisory principal will review your submission and reach out within 24 hours.
+                <p className="text-sm text-gray-600 max-w-sm mx-auto leading-relaxed">
+                  Thank you for contacting Teba Connects. An executive advisory principal will review your submission and connect with you within 24 business hours.
                 </p>
-                <button
-                  type="button"
-                  onClick={() => setSubmitted(false)}
-                  className="mt-4 text-xs font-bold text-[#B42034] hover:underline"
-                >
-                  Submit another inquiry
-                </button>
+                <div className="pt-2">
+                  <button
+                    type="button"
+                    onClick={() => setSubmitted(false)}
+                    className="text-xs font-bold text-[#B42034] hover:underline"
+                  >
+                    Submit another inquiry
+                  </button>
+                </div>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
-                      Full Name *
+                      Name *
                     </label>
                     <input
                       type="text"
@@ -223,18 +243,31 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
-                      Country / Market of Interest *
+                      Phone Number
                     </label>
-                    <select
-                      value={formData.countryMarket}
-                      onChange={(e) => setFormData({ ...formData, countryMarket: e.target.value })}
+                    <input
+                      type="tel"
+                      placeholder="+1 (555) 000-0000"
+                      value={formData.phone}
+                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
-                    >
-                      {form.marketOptions.map(opt => (
-                        <option key={opt} value={opt}>{opt}</option>
-                      ))}
-                    </select>
+                    />
                   </div>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
+                    Country / Market *
+                  </label>
+                  <select
+                    value={formData.countryMarket}
+                    onChange={(e) => setFormData({ ...formData, countryMarket: e.target.value })}
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
+                  >
+                    {form.marketOptions.map(opt => (
+                      <option key={opt} value={opt}>{opt}</option>
+                    ))}
+                  </select>
                 </div>
 
                 <div>
@@ -267,7 +300,7 @@ export default function ContactPage() {
                 </div>
 
                 {/* Privacy Consent Checkbox */}
-                <div className="flex items-start gap-2 pt-1">
+                <div className="flex items-start gap-2.5 pt-1">
                   <input
                     type="checkbox"
                     id="privacyConsent"
