@@ -1,72 +1,105 @@
 {
   "hero": {
-    "eyebrow": "EVENTS & TRADE DELEGATIONS",
+    "eyebrow": "EVENTS & TRADE PLATFORMS",
     "headlineBlack": "Global Platforms.",
     "headlineRed": "Real Business Opportunities.",
     "introduction": "We support business forums, trade delegations, investor roundtables, exhibitions and market showcases that foster meaningful connections and commercial follow-through.",
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Events", "href": "/events" }
-    ]
+    ],
+    "image": "/assets/hero-teba-skyline-perfect.png",
+    "imageAlt": "Teba Connects Global Trade Platforms"
   },
   "events": [
     {
       "id": "agmex",
-      "status": "Upcoming 2026",
-      "badge": "UPCOMING 2026",
       "title": "AGMEX — Green Mobility & Energy Expo",
-      "date": "2026",
-      "venue": "Millennium Hall / Addis Ababa, Ethiopia",
-      "organizer": "Official Industry Advisory & Continental Steering",
-      "tebaRole": "Advisory Partner & International Delegation Lead",
-      "audience": "Clean mobility manufacturers, renewable energy financiers, transport ministers, and infrastructure developers.",
-      "participationOptions": "Exhibitor Booths, Country Pavilions, Delegate Passes, Corporate Sponsorship",
-      "description": "Africa's leading platform dedicated to electric mobility, sustainable urban transport, renewable grid technology, and continental supply chains.",
-      "whoShouldAttend": "EV OEMs, battery storage developers, sovereign energy boards, and infrastructure investors.",
-      "delegationPackage": "Curated bilateral B2B meetings, ministerial roundtables, site tours, and targeted networking.",
+      "statusType": "Upcoming",
+      "badge": "UPCOMING 2026",
+      "verifiedDate": "Q4 2026 (Confirmed Schedule)",
+      "venue": "Millennium Hall, Addis Ababa, Ethiopia",
+      "organizer": "AGMEX Secretariat in strategic partnership with Teba Connects",
+      "tebaRole": "Strategic Advisory Partner & International Delegation Lead",
+      "audience": "Clean mobility manufacturers, renewable energy financiers, transport ministers, fleet operators, and grid infrastructure developers.",
+      "participationOptions": "Exhibitor Booths, Country Pavilions, Delegate Passes, Corporate Title Sponsorship",
+      "registrationLink": "/contact?inquiry=Events%20&%20Trade%20Missions&event=AGMEX",
       "image": "/assets/event-agmex.jpg",
-      "registrationLink": "/contact?inquiry=Events%20&%20Trade%20Missions&event=AGMEX"
+      "details": {
+        "overview": "Africa's premier platform dedicated to accelerating electric mobility, renewable energy systems, grid infrastructure, and sustainable supply chains across the continent.",
+        "whoShouldAttend": "Electric vehicle OEMs, solar/wind developers, battery manufacturers, sovereign infrastructure funds, and regulatory policymakers.",
+        "exhibitorSponsorOptions": "Standard & premium modular booths (9m² - 72m²), national pavilion sponsorship, executive networking lounge branding, and keynote speaking slots.",
+        "delegationPackage": "Curated B2B matching with vetted public-private counterparties, ministerial roundtables, site visits to renewable facilities, and dedicated ground logistics support.",
+        "agendaVenue": "Millennium Hall, Addis Ababa. Three-day format: Day 1 Policy & Ministerial Summit; Day 2 B2B Deal Rooms & Technical Showcases; Day 3 Trade Delegations & Site Expeditions.",
+        "inquiryFormText": "Inquire for AGMEX Delegation or Booth"
+      }
     },
     {
       "id": "cawee",
-      "status": "Flagship Initiative",
-      "badge": "FLAGSHIP PROGRAM",
       "title": "CAWEE — Market Linkage Program",
-      "date": "Active 2026",
-      "venue": "Regional & Continental Exhibition Hubs",
-      "organizer": "Center for Accelerated Women's Economic Empowerment (CAWEE)",
-      "tebaRole": "Strategic Advisory & International Market Bridge",
-      "audience": "Women entrepreneurs, SME exporters, international retail buyers, and development finance agencies.",
-      "participationOptions": "Buyer Missions, Exhibition Showcases, Mentorship & Export Readiness Sessions",
-      "description": "Connecting 240,000 youth and 6,500 female-led SMEs with verified commercial export corridors across the USA and Middle East.",
-      "whoShouldAttend": "International buyers, ethical retail distributors, impact investors, and development partners.",
-      "delegationPackage": "Pre-screened supplier matching, export documentation guidance, and buyer-seller speed networking.",
+      "statusType": "Upcoming",
+      "badge": "FLAGSHIP PROGRAM",
+      "verifiedDate": "Active 2026 Multi-Phase Cohort",
+      "venue": "Regional Trade Hubs (Ethiopia, Kenya, UAE) & Virtual Showcases",
+      "organizer": "Center for Accelerated Women's Economic Empowerment (CAWEE) & Teba Connects",
+      "tebaRole": "Co-Facilitator & Strategic Market Linkage Partner",
+      "audience": "Female entrepreneurs, SME exporters, international retail buyers, supply chain leaders, and developmental finance institutions.",
+      "participationOptions": "SME Cohort Enrollment, International Buyer Pass, Technical Partner, Program Benefactor",
+      "registrationLink": "/contact?inquiry=Events%20&%20Trade%20Missions&event=CAWEE",
       "image": "/assets/event-cawee.jpg",
-      "registrationLink": "/contact?inquiry=Events%20&%20Trade%20Missions&event=CAWEE"
+      "details": {
+        "overview": "Structured cross-border export linkage program connecting over 6,500 women-led SMEs and 240,000 youth with international commercial buyers across the USA and Arabian Gulf.",
+        "whoShouldAttend": "Commercial importers, ethical fashion & textile distributors, specialty coffee buyers, handicraft retailers, and bilateral trade agencies.",
+        "exhibitorSponsorOptions": "Bespoke product display pavilions at international expos, institutional sponsorship of SME cohorts, and digital B2B catalog inclusion.",
+        "delegationPackage": "Pre-screened supplier matchmaking, certified product compliance dossiers, curated buyer-seller speed meetings, and commercial contract follow-through.",
+        "agendaVenue": "Hybrid delivery across Addis Ababa exhibition venues, Dubai trade hubs, and structured virtual procurement salons.",
+        "inquiryFormText": "Inquire for CAWEE Market Linkage"
+      }
     },
     {
       "id": "africa-investment-circle",
-      "status": "Upcoming Q2 2026",
-      "badge": "Q2 2026",
       "title": "Africa Investment Circle — Dubai",
-      "date": "Q2 2026",
-      "venue": "DIFC / Dubai, UAE",
-      "organizer": "Teba Connects in partnership with Regional Institutional Alliances",
-      "tebaRole": "Convening Host & Deal Matchmaker",
-      "audience": "Sovereign wealth managers, GCC family office principals, private equity partners, and vetted project sponsors.",
-      "participationOptions": "By Invitation Only — Limited Delegations & Keynote Roundtables",
-      "description": "Closed-door executive salon matching Gulf institutional capital with bankable infrastructure, energy, and logistics assets across Africa.",
-      "whoShouldAttend": "Accredited institutional investors, sovereign funds, project promoters seeking $25M+ growth capital.",
-      "delegationPackage": "Exclusive access to investment dossiers, 1-on-1 private deal rooms, and senior ministerial dialogue.",
+      "statusType": "Upcoming",
+      "badge": "Q2 2026",
+      "verifiedDate": "Q2 2026 (Invitation-Only)",
+      "venue": "Dubai International Financial Centre (DIFC) / Address Downtown, Dubai, UAE",
+      "organizer": "Africa Investment Circle in partnership with Teba Connects",
+      "tebaRole": "Convening Host & Cross-Corridor Deal Facilitator",
+      "audience": "Sovereign wealth managers, GCC family office principals, private equity partners, commercial banks, and bankable project sponsors.",
+      "participationOptions": "By Invitation Only — Limited Delegations, Project Pitch Slots, and Co-Host Sponsorship",
+      "registrationLink": "/contact?inquiry=Events%20&%20Trade%20Missions&event=Africa%20Investment%20Circle",
       "image": "/assets/event-dubai.jpg",
-      "registrationLink": "/contact?inquiry=Events%20&%20Trade%20Missions&event=Africa%20Investment%20Circle"
+      "details": {
+        "overview": "Exclusive closed-door executive salon matching Gulf institutional capital with bankable infrastructure, renewable energy, agribusiness, and logistics projects across Africa.",
+        "whoShouldAttend": "Accredited institutional allocators, sovereign fund directors, and vetted project sponsors seeking $25M+ growth capital.",
+        "exhibitorSponsorOptions": "Co-host presenting sponsorship, private deal-room branding, and closed-door roundtable hosting privileges.",
+        "delegationPackage": "Access to verified investment dossiers, pre-arranged 1-on-1 private deal meetings, high-level networking receptions, and post-forum follow-through governance.",
+        "agendaVenue": "DIFC, Dubai. High-level one-day convening with closed-door deal salons, keynote macroeconomic briefings, and executive dining.",
+        "inquiryFormText": "Request Invitation for Africa Investment Circle"
+      }
     }
   ],
   "eventFormats": [
-    { "title": "Bilateral Trade Missions", "icon": "plane", "description": "Structured executive missions connecting public-private leadership across the USA, Africa, and GCC." },
-    { "title": "Closed-Door Investor Salons", "icon": "users", "description": "Curated deal presentations directly to accredited institutional allocators and sovereign funds." },
-    { "title": "Exhibition Pavilions", "icon": "building", "description": "Turnkey national and sectoral pavilion curation at premier global expos." },
-    { "title": "Strategic Market Showcases", "icon": "handshake", "description": "Sector-focused B2B buyer-seller matchmaking forums designed for measurable commercial follow-through." }
+    {
+      "title": "Bilateral Trade Missions",
+      "icon": "plane",
+      "description": "Structured executive missions connecting public-private leadership across the USA, Africa, and GCC with verified high-level meetings."
+    },
+    {
+      "title": "Closed-Door Investor Salons",
+      "icon": "users",
+      "description": "Curated deal rooms matching project sponsors directly with sovereign wealth funds and accredited family office allocators."
+    },
+    {
+      "title": "Exhibitions & Country Pavilions",
+      "icon": "building",
+      "description": "Turnkey national and sectoral pavilion curation, booth management, and targeted B2B buyer recruitment at premier global expos."
+    },
+    {
+      "title": "Market Showcases & Roundtables",
+      "icon": "handshake",
+      "description": "Sectoral buyer-seller matchmaking and policy dialogues structured for concrete, measurable commercial outcomes."
+    }
   ],
   "cta": {
     "title": "Discuss an Event or Delegation",
