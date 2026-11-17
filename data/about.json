@@ -7,19 +7,17 @@
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "About Us", "href": "/about-us" }
-    ]
+    ],
+    "image": "/assets/hero-teba-skyline-perfect.png",
+    "imageAlt": "Teba H. Molla - Founder & CEO"
   },
   "overview": {
     "title": "About Teba Connects",
+    "headline": "Connecting Organizations with Markets and Opportunities",
     "paragraphs": [
       "Teba Connects is a US headquartered global business advisory and market development Firm that helps organizations enter new markets, build strategic partnerships and accelerate cross-border growth.",
       "With deep regional expertise and a trusted network across the USA, Africa and the Middle East, we serve as a strategic bridge between businesses, investors, institutions and governments turning connections into opportunities and ambitions into sustainable impact."
     ]
-  },
-  "story": {
-    "title": "Our Story",
-    "narrative": "Teba Connects was established to help close the gap between market opportunities and the relationships, institutional understanding and execution support required to pursue them.",
-    "whyWeExist": "Organizations entering unfamiliar markets need credible partners, local intelligence and consistent follow-through—not introductions alone."
   },
   "visionMission": {
     "vision": {
@@ -30,6 +28,14 @@
       "title": "Our Mission",
       "description": "To bridge businesses, investors and institutions with the right partners, insights and strategies for long-term success."
     }
+  },
+  "story": {
+    "title": "Our Story",
+    "narrative": "Teba Connects was established to help close the gap between market opportunities and the relationships, institutional understanding and execution support required to pursue them.",
+    "whyWeExistTitle": "Why We Exist",
+    "whyWeExist": "Organizations entering unfamiliar markets need credible partners, local intelligence and consistent follow-through—not introductions alone.",
+    "image": "/assets/market-middle-east.jpg",
+    "imageAlt": "Dubai Skyline - Strategic Global Gateway"
   },
   "approach": [
     {
@@ -47,7 +53,7 @@
     {
       "id": "globally-connected",
       "title": "Globally Connected",
-      "description": "Active bridges linking the United States, selected African growth markets, and the Arabian Gulf.",
+      "description": "Active commercial bridges linking the United States, selected African growth markets, and the Arabian Gulf.",
       "icon": "globe"
     },
     {
@@ -58,13 +64,15 @@
     }
   ],
   "founder": {
+    "title": "Meet Our Founder & CEO",
     "name": "Teba H. Molla",
     "role": "Founder & CEO",
     "headline": "Experience That Opens Doors. Relationships That Create Opportunities.",
-    "bio": "A global connector with extensive experience in international trade, investment facilitation and strategic representation. Former Chief Representative, Dubai International Chamber for Ethiopia and the Horn of Africa, with a proven track record of building partnerships and unlocking opportunities across global markets.",
+    "leadBio": "Drawing on experience in international chamber representation, investment facilitation and cross-border business development, Teba Connects brings a senior-led approach to connecting organizations with markets and opportunities.",
+    "chamberExperience": "Former Chief Representative, Dubai International Chamber for Ethiopia and the Horn of Africa, with a proven track record of building partnerships and unlocking opportunities across global markets.",
     "quote": "I believe in the power of connections to create opportunities, empower people and drive sustainable growth across borders.",
     "image": "/assets/founder-portrait.jpg",
-    "linkedin": "https://linkedin.com/company/tebaconnects"
+    "linkedin": "https://www.linkedin.com/in/teba-molla"
   },
   "cta": {
     "title": "Let’s Turn Connections Into Opportunities",
