@@ -7,6 +7,7 @@ export default function SafeImage({
   alt = 'Teba Connects',
   className = '',
   fallbackClassName = '',
+  loading = 'lazy',
   ...props
 }) {
   const [hasError, setHasError] = useState(false);
@@ -15,7 +16,7 @@ export default function SafeImage({
     return (
       <div
         className={`w-full h-full flex items-center justify-center p-4 text-center select-none ${
-          fallbackClassName || 'bg-gradient-to-br from-[#0B1320] via-[#1E293B] to-[#C8102E]/40'
+          fallbackClassName || 'bg-gradient-to-br from-[#071B31] via-[#0D2744] to-[#B42034]/40'
         }`}
       >
         <div className="flex flex-col items-center">
@@ -32,6 +33,8 @@ export default function SafeImage({
     <img
       src={src}
       alt={alt}
+      loading={loading}
+      decoding="async"
       className={className}
       onError={() => setHasError(true)}
       {...props}
