@@ -7,7 +7,9 @@
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Global Markets", "href": "/global-markets" }
-    ]
+    ],
+    "image": "/assets/hero-teba-skyline-perfect.png",
+    "imageAlt": "Teba Connects Three Strategic Corridors"
   },
   "markets": [
     {
@@ -19,8 +21,9 @@
       "relevantSectors": [
         "Technology & Digital Transformation",
         "Financial Services & Capital Markets",
-        "Clean Energy & Climate Innovation",
-        "Manufacturing & Industrial Sourcing"
+        "Green Mobility & Clean Energy",
+        "Manufacturing & Industrial Sourcing",
+        "Real Estate & Infrastructure"
       ],
       "howWeHelp": [
         "In-market representation and executive stakeholder engagement",
@@ -28,7 +31,7 @@
         "Cross-border investor introduction and deal facilitation",
         "Practical expansion roadmap and partner matching"
       ],
-      "image": "/assets/market-usa-large.jpg"
+      "image": "/assets/market-usa.jpg"
     },
     {
       "id": "africa",
@@ -37,11 +40,12 @@
       "overview": "Connect organizations with market insight, stakeholders and opportunities in selected African markets, subject to country-specific validation.",
       "whoWeSupport": "Global investors, multinationals, regional development institutions, and high-growth African enterprises.",
       "relevantSectors": [
+        "Agriculture & Agribusiness",
         "Green Mobility & Clean Energy",
-        "Agriculture & Agro-Processing",
-        "Real Estate & Infrastructure",
+        "Manufacturing",
+        "Mining & Resource Development",
         "Women & Youth Entrepreneurship",
-        "Mining & Resource Development"
+        "Logistics & Aviation"
       ],
       "howWeHelp": [
         "Senior-level institutional and regulatory engagement",
@@ -49,7 +53,7 @@
         "Market linkage programs and capacity building initiatives",
         "Cross-border trade facilitation under AfCFTA frameworks"
       ],
-      "image": "/assets/market-africa-large.jpg"
+      "image": "/assets/market-africa.jpg"
     },
     {
       "id": "middle-east",
@@ -58,10 +62,12 @@
       "overview": "Facilitate commercial relationships and investment dialogue linking Middle Eastern partners with the USA and Africa.",
       "whoWeSupport": "Gulf institutional investors, family offices, sovereign trade chambers, and international firms expanding into the GCC.",
       "relevantSectors": [
-        "Sovereign & Private Equity Allocations",
-        "Logistics, Aviation & Trade Hubs",
-        "Clean Energy & Water Infrastructure",
-        "Real Estate & Mega-Development"
+        "Financial Services & Sovereign Allocations",
+        "Green Mobility & Clean Energy",
+        "Real Estate & Infrastructure",
+        "Logistics & Aviation",
+        "Tourism & Hospitality",
+        "Technology & Digital Transformation"
       ],
       "howWeHelp": [
         "Institutional representation and chamber network alignment",
@@ -69,14 +75,14 @@
         "Bilateral commercial deal structuring and co-investment",
         "Market positioning and strategic stakeholder liaison"
       ],
-      "image": "/assets/market-middle-east-large.jpg"
+      "image": "/assets/market-middle-east.jpg"
     }
   ],
-  "disclaimer": "Coverage across selected priority markets is delivered through verified executive relationships and vetted local partners, subject to country-specific regulatory confirmation.",
+  "disclaimer": "Coverage across selected priority markets is delivered through verified executive relationships and vetted local partners, subject to country-specific regulatory confirmation. Teba Connects is headquartered in the United States and does not claim permanent branch offices or comprehensive country coverage without confirmation.",
   "cta": {
-    "title": "Request a Market Conversation",
-    "subtitle": "Speak with our advisory team regarding your target corridor and strategic objectives.",
-    "buttonText": "Discuss Market Entry",
+    "title": "Looking to enter or expand in a specific market?",
+    "subtitle": "Let's discuss your opportunities with our advisory team.",
+    "buttonText": "Book a Consultation",
     "buttonHref": "/contact"
   }
 }
