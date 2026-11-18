@@ -115,18 +115,27 @@ export default function HeroSection({
 
           {/* Right Column: Hero Visual Proportion */}
           <div className="lg:col-span-5 relative h-full flex items-center lg:items-end justify-center lg:justify-end my-4 lg:my-0">
-            <div className="relative w-full max-w-md lg:max-w-lg h-[420px] sm:h-[480px] lg:h-[540px] rounded-3xl overflow-hidden shadow-lg border border-gray-200/80 bg-gray-50">
-              
-              {/* The Hero Visual */}
-              <SafeImage
-                src={image}
-                alt={imageAlt}
-                className="w-full h-full object-cover object-top"
-              />
-
-              {/* Subtle bottom gradient accent */}
-              <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-[#071B31]/20 to-transparent pointer-events-none" />
-            </div>
+            {isHome ? (
+              <div className="relative w-full max-w-lg lg:max-w-none h-[420px] sm:h-[490px] lg:h-[550px] flex items-end justify-end overflow-hidden">
+                {/* Landing Hero Visual: Left white gradient naturally blends into hero background */}
+                <SafeImage
+                  src={image}
+                  alt={imageAlt}
+                  className="w-full h-full object-cover object-bottom lg:object-right-bottom"
+                />
+                {/* Subtle bottom fade */}
+                <div className="absolute inset-x-0 bottom-0 h-4 bg-gradient-to-t from-white to-transparent pointer-events-none" />
+              </div>
+            ) : (
+              <div className="relative w-full max-w-md lg:max-w-lg h-[420px] sm:h-[480px] lg:h-[540px] rounded-3xl overflow-hidden shadow-lg border border-gray-200/80 bg-gray-50">
+                <SafeImage
+                  src={image}
+                  alt={imageAlt}
+                  className="w-full h-full object-cover object-top"
+                />
+                <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-[#071B31]/20 to-transparent pointer-events-none" />
+              </div>
+            )}
           </div>
 
         </div>
