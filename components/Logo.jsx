@@ -1,93 +1,122 @@
 import React from 'react';
 
+/**
+ * Teba Connects Official Logo Component
+ * Derived directly from the official 2025 Brand Guideline (Pages 5, 6, 7, 8).
+ *
+ * Variations per Page 6:
+ * - 'main' / 'box': Solid Red Box (#B42034) with White 'TC' & White 'TEBA CONNECTS'
+ * - 'secondary' / 'default': Transparent background with Red (#B42034) 'TC' & Red 'TEBA CONNECTS'
+ * - 'white': Transparent background with White 'TC' & White 'TEBA CONNECTS' (for dark surfaces)
+ */
 export default function Logo({
-  variant = 'default', // 'default' (on white) | 'white' (on dark) | 'monochrome'
+  variant = 'default', // 'default' | 'main' | 'box' | 'white' | 'secondary'
   className = 'h-10',
-  showText = true
+  showText = false // Optional accompanying wordmark for wide navigation contexts
 }) {
-  const isDark = variant === 'white';
-  const redColor = '#B42034';
-  const textColor = isDark ? '#FFFFFF' : '#071B31';
-  const badgeBg = isDark ? '#071B31' : '#FFFFFF';
+  const isBox = variant === 'main' || variant === 'box';
+  const isWhite = variant === 'white';
+
+  // Palette per Brand Guideline (Page 9: Primary Red #B42034, Secondary White #FFFFFF)
+  const primaryColor = isBox ? '#FFFFFF' : isWhite ? '#FFFFFF' : '#B42034';
+  const boxBg = '#B42034';
 
   return (
-    <div className={`inline-flex items-center gap-2.5 select-none ${className}`}>
-      {/* Official Stylized TC Monogram Vector */}
+    <div className={`inline-flex items-center gap-3 select-none ${className}`}>
       <svg
-        viewBox="0 0 160 110"
+        viewBox="0 0 170 140"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="h-full w-auto overflow-visible"
-        aria-label="Teba Connects Logo"
+        className="h-full w-auto aspect-[170/140] overflow-visible"
+        aria-label="Teba Connects Official Logo"
       >
-        {/* Letter 'T' in high-contrast editorial serif */}
-        <path
-          d="M 12 20 
-             L 78 20 
-             C 78 26, 75 27, 70 28 
-             L 53 28 
-             L 53 85 
-             C 53 90, 56 91, 62 92 
-             L 62 96 
-             L 28 96 
-             L 28 92 
-             C 34 91, 37 90, 37 85 
-             L 37 28 
-             L 20 28 
-             C 15 27, 12 26, 12 20 Z"
-          fill={redColor}
-        />
+        {/* Main Logo: Solid Red Background Box (Page 6) */}
+        {isBox && (
+          <rect
+            width="170"
+            height="140"
+            rx="6"
+            fill={boxBg}
+          />
+        )}
 
-        {/* Letter 'C' in classic circular serif, overlapping the T */}
+        {/* Letter 'T' - Top Bar and Upper Stem (with gap for TEBA CONNECTS) */}
         <path
-          d="M 132 34 
-             C 127 24, 115 18, 98 18 
-             C 74 18, 56 34, 56 58 
-             C 56 82, 74 98, 98 98 
-             C 116 98, 128 91, 134 80 
-             L 125 76 
-             C 120 83, 111 88, 98 88 
-             C 80 88, 68 76, 68 58 
-             C 68 40, 80 28, 98 28 
-             C 110 28, 118 33, 123 40 
+          d="M 22 24
+             C 22 30, 24 35, 27 40
+             L 32 38
+             C 30 35, 29 32, 29 28
+             L 56 28
+             L 56 58
+             L 69 58
+             L 69 28
+             L 96 28
+             C 96 32, 95 35, 93 38
+             L 98 40
+             C 101 35, 103 30, 103 24
              Z"
-          fill={redColor}
+          fill={primaryColor}
         />
 
-        {/* Horizontal badge plate crossing the T stem */}
-        <rect
-          x="10"
-          y="50"
-          width="75"
-          height="16"
-          rx="2"
-          fill={badgeBg}
+        {/* Letter 'T' - Lower Stem and Base Serif */}
+        <path
+          d="M 56 74
+             L 56 104
+             L 34 104
+             C 34 99, 32 96, 29 93
+             L 25 95
+             C 28 100, 30 105, 30 110
+             L 95 110
+             C 95 105, 97 100, 100 95
+             L 96 93
+             C 93 96, 91 99, 91 104
+             L 69 104
+             L 69 74
+             Z"
+          fill={primaryColor}
         />
 
-        {/* TEBA CONNECTS text inside badge */}
+        {/* Letter 'C' - High-Contrast Serif Interlocking Curve */}
+        <path
+          d="M 138 42
+             C 134 32, 126 23, 110 23
+             C 88 23, 73 39, 73 66
+             C 73 93, 88 111, 110 111
+             C 126 111, 135 102, 140 91
+             L 132 87
+             C 128 95, 120 101, 110 101
+             C 94 101, 84 87, 84 66
+             C 84 45, 94 33, 110 33
+             C 120 33, 127 38, 131 46
+             Z"
+          fill={primaryColor}
+        />
+
+        {/* TEBA CONNECTS - Set horizontally across the T stem gap in tracked Montserrat caps */}
         <text
-          x="47"
-          y="62"
+          x="82"
+          y="69.5"
           textAnchor="middle"
-          fontSize="9"
+          fontSize="10"
           fontWeight="800"
-          letterSpacing="1.2"
-          fontFamily="system-ui, -apple-system, sans-serif"
-          fill={textColor}
+          letterSpacing="2.2"
+          fontFamily="var(--font-montserrat), Montserrat, -apple-system, sans-serif"
+          fill={primaryColor}
         >
           TEBA CONNECTS
         </text>
       </svg>
 
+      {/* Optional Accompanying Text for wide contexts */}
       {showText && (
-        <div className="hidden sm:flex flex-col justify-center">
+        <div className="flex flex-col justify-center">
           <span
-            className="text-sm font-bold tracking-[0.22em] uppercase font-sans leading-tight"
-            style={{ color: textColor }}
+            className="text-sm font-bold tracking-[0.2em] uppercase leading-tight font-sans"
+            style={{ color: isWhite ? '#FFFFFF' : '#071B31' }}
           >
             Teba Connects
           </span>
-          <span className="text-[9px] tracking-widest uppercase font-semibold text-[#B42034] mt-0.5">
+          <span className="text-[9px] tracking-widest uppercase font-semibold text-[#B42034] mt-0.5 font-sans">
             Global Advisory
           </span>
         </div>
