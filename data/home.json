@@ -17,32 +17,8 @@
     "image": "/assets/hero-teba-skyline-perfect.png",
     "imageAlt": "Teba H. Molla - Founder & CEO with Dubai Skyline"
   },
-  "whyTebaConnects": {
-    "title": "Why Teba Connects",
-    "subtitle": "Navigating complex global corridors with clarity, senior relationships, and accountable delivery.",
-    "pillars": [
-      {
-        "id": "market-access",
-        "title": "Market Access",
-        "description": "Navigate priority markets with insight and local context.",
-        "icon": "globe"
-      },
-      {
-        "id": "strategic-relationships",
-        "title": "Strategic Relationships",
-        "description": "Reach the right people, investors and decision-makers.",
-        "icon": "users"
-      },
-      {
-        "id": "on-the-ground-execution",
-        "title": "On-the-Ground Execution",
-        "description": "Move from introductions to implementation.",
-        "icon": "gear"
-      }
-    ]
-  },
-  "whyTebaConnectsExists": {
-    "title": "Why Teba Connects Exists",
+  "aboutTebaConnects": {
+    "eyebrow": "About Teba Connects",
     "headline": "Bridging the Gap Between Opportunity and Execution.",
     "lead": "International growth requires more than introductions: it takes market understanding, trusted stakeholders and sustained engagement.",
     "description": "Teba Connects was established to help close the gap between market opportunities and the relationships, institutional understanding and execution support required to pursue them. Organizations entering unfamiliar markets need credible partners, local intelligence and consistent follow-through—not introductions alone.",
@@ -52,7 +28,7 @@
     }
   },
   "coreServices": {
-    "title": "Our Core Services",
+    "title": "Five Core Services",
     "subtitle": "Tailored advisory and business development support for organizations navigating international growth.",
     "items": [
       {
@@ -93,8 +69,8 @@
     ]
   },
   "markets": {
-    "title": "Our Markets",
-    "subtitle": "Connecting high-potential commercial corridors across North America, Africa, and the Arabian Gulf.",
+    "title": "Global Markets",
+    "subtitle": "Three Connected Markets. One Strategic Bridge across North America, Africa, and the Arabian Gulf.",
     "items": [
       {
         "id": "usa",
@@ -122,60 +98,8 @@
       }
     ]
   },
-  "keySectors": {
-    "title": "Key Sectors",
-    "disclaimer": "These are focus areas, not claims of completed projects.",
-    "items": [
-      { "id": "green-mobility", "title": "Green Mobility & Clean Energy", "icon": "leaf" },
-      { "id": "manufacturing", "title": "Manufacturing", "icon": "factory" },
-      { "id": "tech-digital", "title": "Technology & Digital Transformation", "icon": "cpu" },
-      { "id": "agriculture", "title": "Agriculture", "icon": "sprout" },
-      { "id": "real-estate", "title": "Real Estate & Infrastructure", "icon": "building" },
-      { "id": "financial-services", "title": "Financial Services", "icon": "credit-card" },
-      { "id": "tourism-hospitality", "title": "Tourism & Hospitality", "icon": "hotel" },
-      { "id": "women-youth", "title": "Women & Youth Entrepreneurship", "icon": "heart-handshake" },
-      { "id": "mining", "title": "Mining", "icon": "pickaxe" },
-      { "id": "logistics-aviation", "title": "Logistics & Aviation", "icon": "plane" }
-    ]
-  },
-  "featuredEvents": {
-    "title": "Featured Events",
-    "subtitle": "Confirmed upcoming opportunities and verified business platforms.",
-    "items": [
-      {
-        "id": "agmex",
-        "badge": "UPCOMING 2026",
-        "title": "AGMEX",
-        "subtitle": "Green Mobility & Energy",
-        "location": "Addis Ababa, Ethiopia",
-        "description": "Africa's leading platform for clean transport, renewable technology, and energy transition dialogue.",
-        "href": "/events#agmex",
-        "image": "/assets/event-agmex.jpg"
-      },
-      {
-        "id": "cawee",
-        "badge": "PROGRAM",
-        "title": "CAWEE",
-        "subtitle": "Market Linkage Program",
-        "location": "Regional / Ethiopia",
-        "description": "Structured market linkage connecting export-ready women entrepreneurs and SMEs with international markets.",
-        "href": "/events#cawee",
-        "image": "/assets/event-cawee.jpg"
-      },
-      {
-        "id": "africa-investment-circle",
-        "badge": "Q2 2026",
-        "title": "Africa Investment Circle — Dubai",
-        "subtitle": "Dubai, UAE",
-        "location": "Dubai, UAE",
-        "description": "Exclusive invitation-only forum convening Gulf institutional capital and continental opportunities.",
-        "href": "/events#africa-investment-circle",
-        "image": "/assets/event-dubai.jpg"
-      }
-    ]
-  },
   "founderPreview": {
-    "title": "Meet Our Founder & CEO",
+    "title": "Meet Our Founder",
     "headline": "Experience That Opens Doors. Relationships That Create Opportunities.",
     "name": "Teba H. Molla",
     "role": "Founder & CEO, Teba Connects",
@@ -188,49 +112,101 @@
     }
   },
   "strategicPartnerships": {
-    "title": "Strategic Partnerships & Initiatives",
-    "subtitle": "We collaborate with verified institutional partners to support market entry, investment facilitation, trade promotion and capacity building across the USA, Africa and the Middle East.",
+    "title": "Strategic Partnerships",
+    "headline": "Strategic Partnerships. Shared Opportunities. Lasting Impact.",
+    "subtitle": "We connect businesses, investors, institutions and governments to advance market access, collaboration and sustainable growth across five core categories.",
     "categories": [
       {
         "id": "chambers",
-        "title": "Chambers & Trade Institutions",
-        "description": "Bilateral chamber representation, business council management, and trade mission facilitation.",
+        "title": "Chambers & Business Associations",
+        "description": "Bilateral chamber representation, business council management, and official trade mission facilitation.",
         "icon": "landmark",
         "status": "Authorized Scope"
       },
       {
         "id": "investment",
-        "title": "Financial Institutions & Investors",
-        "description": "Investment facilitation, debt and equity matchmaking, and cross-border deal structuring.",
+        "title": "Investment & Financial Institutions",
+        "description": "Connecting institutional capital, private equity syndicates, and corporate buyers with qualified cross-border ventures.",
         "icon": "credit-card",
         "status": "Authorized Scope"
       },
       {
         "id": "technology",
-        "title": "Technology & Innovation Partners",
+        "title": "Technology & Innovation",
         "description": "Cross-border tech transfer, enterprise digitalization, and innovation ecosystem partnerships.",
         "icon": "cpu",
         "status": "Authorized Scope"
       },
       {
         "id": "trade-events",
-        "title": "Trade Exhibitions & Event Organizers",
-        "description": "Official trade delegations, international country pavilions, and curated business showcases.",
+        "title": "Trade, Exhibitions & Market Promotion",
+        "description": "Designing, orchestrating, and promoting specialized international expos, country pavilions, and investor roundtables.",
         "icon": "calendar",
         "status": "Authorized Scope"
       },
       {
         "id": "development",
-        "title": "Development Institutions",
-        "description": "Joint bilateral initiatives for SME capacity building, youth linkage, and women empowerment.",
+        "title": "Development & Institutional Partnerships",
+        "description": "Joint bilateral initiatives driving inclusive economic growth, female founder linkages, and SME export enablement.",
         "icon": "heart-handshake",
         "status": "Authorized Scope"
       }
     ],
+    "featuredPartners": [
+      {
+        "name": "CAWEE — Market Linkage Program",
+        "statusType": "Signed Partner",
+        "statusColor": "emerald",
+        "role": "Institutional Partnership & SME Export Enablement"
+      },
+      {
+        "name": "AGMEX — Green Mobility & Energy",
+        "statusType": "Signed Partner",
+        "statusColor": "emerald",
+        "role": "Trade, Exhibitions & Market Promotion Platform"
+      },
+      {
+        "name": "Dubai International Chamber",
+        "statusType": "Prior Engagement",
+        "statusColor": "blue",
+        "role": "Former Chief Representative Mandate (Horn of Africa)"
+      },
+      {
+        "name": "U.S. Bilateral Trade & Business Councils",
+        "statusType": "Prospective Discussion",
+        "statusColor": "amber",
+        "role": "Chambers & Strategic Representation Dialogue"
+      }
+    ],
     "cta": {
-      "label": "Partner With Us",
+      "label": "Explore Partnership Opportunities",
       "href": "/partnerships"
     }
+  },
+  "tebaConnectsAdvantage": {
+    "title": "The Teba Connects Advantage",
+    "headline": "The Teba Connects Advantage.",
+    "subtitle": "More than connections. A pathway to opportunities.",
+    "pillars": [
+      {
+        "id": "market-access",
+        "title": "Market Access",
+        "description": "Navigate priority markets with insight and local context.",
+        "icon": "globe"
+      },
+      {
+        "id": "strategic-relationships",
+        "title": "Strategic Relationships",
+        "description": "Reach the right people, investors and decision-makers.",
+        "icon": "users"
+      },
+      {
+        "id": "on-the-ground-execution",
+        "title": "On-the-Ground Execution",
+        "description": "Move from introductions to implementation.",
+        "icon": "gear"
+      }
+    ]
   },
   "approachStrip": [
     { "title": "Relationship-Driven", "icon": "handshake" },
