@@ -46,7 +46,7 @@ All website content is organized into human-readable JSON files in the `/data` d
 | Content Area | Editable Data File | What Can Be Updated |
 | :--- | :--- | :--- |
 | **Site-wide Settings** | `data/site.json` | Brand name, global phone numbers, emails, addresses, navigation links. |
-| **Page 1 — Home** | `data/home.json` | Hero copy, 3 value pillars, core services summary, 3 markets preview, 10 sectors, featured events, founder preview, approach strip, closing CTA. |
+| **Page 1 — Home** | `data/home.json` | Hero copy, About Teba Connects, five core services, 3 markets preview, Meet Our Founder, Strategic Partnerships, The Teba Connects Advantage (3 pillars), 10 sectors, featured events, approach strip, closing CTA. |
 | **Page 2 — About Us** | `data/about.json` | 2-paragraph company profile, Vision & Mission statements, Our Story & Why We Exist, 4 approach modules, founder leadership bio & quote. |
 | **Page 3 — Services** | `data/services.json` | Five core service titles, summaries, descriptions, deliverables, "Who We Support", approach strip. |
 | **Page 4 — Global Markets**| `data/markets.json` | USA, Africa, and Middle East corridor overviews, sectors, deliverables, and compliance disclaimer. |
