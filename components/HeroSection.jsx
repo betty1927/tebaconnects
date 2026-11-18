@@ -113,22 +113,19 @@ export default function HeroSection({
             )}
           </div>
 
-          {/* Right Column: Hero Visual Proportion (Matching Mockup Composition) */}
-          <div className="lg:col-span-5 relative h-full flex items-end justify-center lg:justify-end">
-            <div className="relative w-full max-w-lg lg:max-w-none h-[400px] sm:h-[480px] lg:h-[550px] flex items-end justify-end overflow-hidden">
+          {/* Right Column: Hero Visual Proportion */}
+          <div className="lg:col-span-5 relative h-full flex items-center lg:items-end justify-center lg:justify-end my-4 lg:my-0">
+            <div className="relative w-full max-w-md lg:max-w-lg h-[420px] sm:h-[480px] lg:h-[540px] rounded-3xl overflow-hidden shadow-lg border border-gray-200/80 bg-gray-50">
               
-              {/* Soft left gradient blend so the skyline melts into the white background on desktop */}
-              <div className="absolute inset-y-0 left-0 w-28 bg-gradient-to-r from-white via-white/80 to-transparent z-10 hidden lg:block pointer-events-none" />
-
               {/* The Hero Visual */}
               <SafeImage
                 src={image}
                 alt={imageAlt}
-                className="w-full h-full object-cover object-bottom lg:object-right-bottom"
+                className="w-full h-full object-cover object-top"
               />
 
-              {/* Subtle bottom fade */}
-              <div className="absolute inset-x-0 bottom-0 h-4 bg-gradient-to-t from-white to-transparent pointer-events-none" />
+              {/* Subtle bottom gradient accent */}
+              <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-[#071B31]/20 to-transparent pointer-events-none" />
             </div>
           </div>
 
