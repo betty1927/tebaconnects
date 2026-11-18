@@ -36,7 +36,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/assets/hero-teba-skyline-perfect.png',
+        url: '/assets/hero-teba-main.jpg',
         width: 1200,
         height: 630,
         alt: 'Teba Connects — Bridging Markets. Building Futures.'
@@ -47,7 +47,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Teba Connects | Global Business Advisory',
     description: 'Turning market ambitions into sustainable cross-border growth across the USA, Africa, and the Middle East.',
-    images: ['/assets/hero-teba-skyline-perfect.png']
+    images: ['/assets/hero-teba-main.jpg']
   },
   robots: {
     index: true,
@@ -71,7 +71,7 @@ const jsonLd = {
       name: 'Teba Connects',
       url: 'https://tebaconnects.com',
       logo: 'https://tebaconnects.com/assets/tc-logo-official-large.png',
-      image: 'https://tebaconnects.com/assets/hero-teba-skyline-perfect.png',
+      image: 'https://tebaconnects.com/assets/hero-teba-main.jpg',
       description: 'US headquartered global business advisory and market development Firm that helps organizations enter new markets, build strategic partnerships and accelerate cross-border growth.',
       telephone: ['+1-206-850-0926', '+251-912-689-532'],
       email: ['teba.molla@tebaconnects.com', 'info@tebaconnects.com'],

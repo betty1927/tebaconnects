@@ -8,7 +8,7 @@
       { "label": "Home", "href": "/" },
       { "label": "Global Markets", "href": "/global-markets" }
     ],
-    "image": "/assets/hero-teba-skyline-perfect.png",
+    "image": "/assets/hero-teba-main.jpg",
     "imageAlt": "Teba Connects Three Strategic Corridors"
   },
   "markets": [

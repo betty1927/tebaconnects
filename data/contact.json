@@ -8,7 +8,7 @@
       { "label": "Home", "href": "/" },
       { "label": "Contact", "href": "/contact" }
     ],
-    "image": "/assets/hero-teba-skyline-perfect.png",
+    "image": "/assets/hero-teba-main.jpg",
     "imageAlt": "Contact Teba Connects Global Advisory"
   },
   "contactDetails": {

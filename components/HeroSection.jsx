@@ -14,7 +14,7 @@ export default function HeroSection({
   taglinePill = null, // e.g. "CONNECT | EXPAND | DOMINATE"
   primaryCta = { label: 'Explore Our Services', href: '/services' },
   secondaryCta = { label: 'Partner With Us', href: '/partnerships' },
-  image = '/assets/hero-teba-skyline-perfect.png',
+  image = '/assets/hero-teba-main.jpg',
   imageAlt = 'Teba H. Molla - Founder & CEO',
   isHome = false
 }) {

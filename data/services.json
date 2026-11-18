@@ -8,7 +8,7 @@
       { "label": "Home", "href": "/" },
       { "label": "Services", "href": "/services" }
     ],
-    "image": "/assets/hero-teba-skyline-perfect.png",
+    "image": "/assets/hero-teba-main.jpg",
     "imageAlt": "Teba Connects Core Advisory Services"
   },
   "overview": {
