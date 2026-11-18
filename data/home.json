@@ -208,6 +208,58 @@
       }
     ]
   },
+  "keySectors": {
+    "title": "Key Sectors",
+    "disclaimer": "These are focus areas, not claims of completed projects.",
+    "items": [
+      { "id": "green-mobility", "title": "Green Mobility & Clean Energy", "icon": "leaf" },
+      { "id": "manufacturing", "title": "Manufacturing", "icon": "factory" },
+      { "id": "tech-digital", "title": "Technology & Digital Transformation", "icon": "cpu" },
+      { "id": "agriculture", "title": "Agriculture", "icon": "sprout" },
+      { "id": "real-estate", "title": "Real Estate & Infrastructure", "icon": "building" },
+      { "id": "financial-services", "title": "Financial Services", "icon": "credit-card" },
+      { "id": "tourism-hospitality", "title": "Tourism & Hospitality", "icon": "hotel" },
+      { "id": "women-youth", "title": "Women & Youth Entrepreneurship", "icon": "heart-handshake" },
+      { "id": "mining", "title": "Mining", "icon": "pickaxe" },
+      { "id": "logistics-aviation", "title": "Logistics & Aviation", "icon": "plane" }
+    ]
+  },
+  "featuredEvents": {
+    "title": "Featured Events",
+    "subtitle": "Confirmed upcoming opportunities and verified business platforms.",
+    "items": [
+      {
+        "id": "agmex",
+        "badge": "UPCOMING 2026",
+        "title": "AGMEX",
+        "subtitle": "Green Mobility & Energy",
+        "location": "Addis Ababa, Ethiopia",
+        "description": "Africa's leading platform for clean transport, renewable technology, and energy transition dialogue.",
+        "href": "/events#agmex",
+        "image": "/assets/event-agmex.jpg"
+      },
+      {
+        "id": "cawee",
+        "badge": "PROGRAM",
+        "title": "CAWEE",
+        "subtitle": "Market Linkage Program",
+        "location": "Regional / Ethiopia",
+        "description": "Structured market linkage connecting export-ready women entrepreneurs and SMEs with international markets.",
+        "href": "/events#cawee",
+        "image": "/assets/event-cawee.jpg"
+      },
+      {
+        "id": "africa-investment-circle",
+        "badge": "Q2 2026",
+        "title": "Africa Investment Circle — Dubai",
+        "subtitle": "Dubai, UAE",
+        "location": "Dubai, UAE",
+        "description": "Exclusive invitation-only forum convening Gulf institutional capital and continental opportunities.",
+        "href": "/events#africa-investment-circle",
+        "image": "/assets/event-dubai.jpg"
+      }
+    ]
+  },
   "approachStrip": [
     { "title": "Relationship-Driven", "icon": "handshake" },
     { "title": "Strategically Focused", "icon": "compass" },

@@ -9,19 +9,17 @@ import { Icon } from '../components/Icons';
 import homeData from '../data/home.json';
 
 export default function HomePage() {
-  const {
-    hero,
-    aboutTebaConnects,
-    coreServices,
-    markets,
-    founderPreview,
-    strategicPartnerships,
-    tebaConnectsAdvantage,
-    keySectors,
-    featuredEvents,
-    approachStrip,
-    closingCta
-  } = homeData;
+  const hero = homeData.hero || {};
+  const aboutTebaConnects = homeData.aboutTebaConnects || {};
+  const coreServices = homeData.coreServices || { items: [] };
+  const markets = homeData.markets || { items: [] };
+  const founderPreview = homeData.founderPreview || {};
+  const strategicPartnerships = homeData.strategicPartnerships || { categories: [], featuredPartners: [] };
+  const tebaConnectsAdvantage = homeData.tebaConnectsAdvantage || { pillars: [] };
+  const keySectors = homeData.keySectors || { items: [] };
+  const featuredEvents = homeData.featuredEvents || { items: [] };
+  const approachStrip = homeData.approachStrip || [];
+  const closingCta = homeData.closingCta || {};
 
   return (
     <div className="space-y-16 sm:space-y-24 pb-16">
