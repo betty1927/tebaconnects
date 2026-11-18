@@ -1,9 +1,10 @@
 {
   "hero": {
-    "eyebrow": "ABOUT TEBA CONNECTS",
+    "eyebrow": "TEBA CONNECTS | STRATEGIC REPRESENTATION",
     "headlineBlack": "Bridging Markets.",
-    "headlineRed": "Building Futures.",
-    "supportingLine": "Strategic Access. Trusted Relationships. Cross-Border Execution.",
+    "headlineBlack2": "Building Partnerships.",
+    "headlineRed": "Creating Impact.",
+    "supportingLine": "A global advisory partner connecting businesses, investors and institutions across the USA, Africa and the Middle East.",
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "About Us", "href": "/about-us" }

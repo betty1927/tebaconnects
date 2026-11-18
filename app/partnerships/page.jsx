@@ -45,8 +45,6 @@ export default function PartnershipsPage() {
         titleBlack={hero.headlineBlack}
         titleRed={hero.headlineRed}
         description={hero.introduction}
-        primaryCta={{ label: "Become a Partner", href: "/contact?inquiry=Partnership%20Opportunities" }}
-        secondaryCta={{ label: "Explore Partnership Opportunities", href: "#partner-roster" }}
         image={hero.image}
         imageAlt={hero.imageAlt}
       />

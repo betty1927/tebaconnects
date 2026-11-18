@@ -17,13 +17,15 @@ export default function HeroSection({
   kicker = 'GLOBAL BUSINESS ADVISORY | MARKET ENTRY | STRATEGIC REPRESENTATION',
   breadcrumbs = null,
   titleBlack = 'Bridging Markets.',
+  titleBlack2 = null,
   titleRed = 'Building Futures.',
   titleSub = null,
+  titleLines = null,
   description = 'Turning market ambitions into sustainable cross-border growth.',
   introduction = null,
   taglinePill = null, // e.g. "CONNECT | EXPAND | DOMINATE"
-  primaryCta = { label: 'Explore Our Services', href: '/services' },
-  secondaryCta = { label: 'Partner With Us', href: '/partnerships' },
+  primaryCta = null,
+  secondaryCta = null,
   image = '/assets/hero-home-landing.jpg',
   imageAlt = 'Teba Connects Global Advisory',
   isHome = false
@@ -71,9 +73,23 @@ export default function HeroSection({
 
             {/* Two-Tone Editorial Serif Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-serif font-bold text-[#071B31] leading-[1.14] tracking-tight">
-              {titleBlack && <span className="block text-[#071B31]">{titleBlack}</span>}
-              {titleRed && <span className="block text-[#B42034]">{titleRed}</span>}
-              {titleSub && <span className="block text-[#071B31] text-2xl sm:text-3xl font-serif mt-1 font-semibold">{titleSub}</span>}
+              {titleLines ? (
+                titleLines.map((line, idx) => (
+                  <span
+                    key={idx}
+                    className={`block ${line.color === 'red' ? 'text-[#B42034]' : 'text-[#071B31]'}`}
+                  >
+                    {line.text}
+                  </span>
+                ))
+              ) : (
+                <>
+                  {titleBlack && <span className="block text-[#071B31]">{titleBlack}</span>}
+                  {titleBlack2 && <span className="block text-[#071B31]">{titleBlack2}</span>}
+                  {titleRed && <span className="block text-[#B42034]">{titleRed}</span>}
+                  {titleSub && <span className="block text-[#071B31] text-2xl sm:text-3xl font-serif mt-1 font-semibold">{titleSub}</span>}
+                </>
+              )}
             </h1>
 
             {/* Subheadline */}

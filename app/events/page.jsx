@@ -19,8 +19,6 @@ export default function EventsPage() {
         titleBlack={hero.headlineBlack}
         titleRed={hero.headlineRed}
         description={hero.introduction}
-        primaryCta={{ label: "Explore Confirmed Events", href: "#events-list" }}
-        secondaryCta={{ label: "Discuss an Event or Delegation", href: "/contact?inquiry=Events%20&%20Trade%20Missions" }}
         image={hero.image}
         imageAlt={hero.imageAlt}
       />

@@ -17,10 +17,9 @@ export default function AboutUsPage() {
         kicker={hero.eyebrow}
         breadcrumbs={hero.breadcrumbs}
         titleBlack={hero.headlineBlack}
+        titleBlack2={hero.headlineBlack2}
         titleRed={hero.headlineRed}
         description={hero.supportingLine}
-        primaryCta={{ label: "Meet Our Founder", href: "#founder" }}
-        secondaryCta={{ label: "Explore Our Services", href: "/services" }}
         image={hero.image}
         imageAlt={hero.imageAlt}
       />

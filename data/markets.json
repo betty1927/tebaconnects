@@ -1,9 +1,10 @@
 {
   "hero": {
-    "eyebrow": "STRATEGIC CORRIDORS",
-    "headlineBlack": "Three Connected Markets.",
-    "headlineRed": "One Strategic Bridge.",
-    "introduction": "We connect businesses, investors and institutions across the USA, Africa and the Middle East through targeted market insight and senior-led relationship facilitation.",
+    "eyebrow": "GLOBAL REACH | LOCAL EXPERTISE",
+    "headlineBlack": "Global Reach.",
+    "headlineBlack2": "Local Expertise.",
+    "headlineRed": "Meaningful Connections.",
+    "introduction": "We connect businesses, investors and institutions to high-potential markets across the USA, Africa and the Middle East.",
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Global Markets", "href": "/global-markets" }

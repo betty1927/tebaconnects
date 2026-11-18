@@ -39,8 +39,6 @@ export default function ContactPage() {
         titleBlack={hero.headlineBlack}
         titleRed={hero.headlineRed}
         description={hero.introduction}
-        primaryCta={{ label: "Submit Inquiry / Book a Consultation", href: "#inquiry-form" }}
-        secondaryCta={{ label: "View Our Markets", href: "/global-markets" }}
         image={hero.image}
         imageAlt={hero.imageAlt}
       />

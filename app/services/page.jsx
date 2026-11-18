@@ -19,8 +19,6 @@ export default function ServicesPage() {
         titleBlack={hero.headlineBlack}
         titleRed={hero.headlineRed}
         description={hero.introduction}
-        primaryCta={{ label: "Explore Our Five Services", href: "#services-list" }}
-        secondaryCta={{ label: "Explore Our Markets", href: "/global-markets" }}
         image={hero.image}
         imageAlt={hero.imageAlt}
       />

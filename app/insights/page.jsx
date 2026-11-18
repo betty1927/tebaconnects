@@ -48,8 +48,6 @@ export default function InsightsPage() {
         titleBlack={hero.headlineBlack}
         titleRed={hero.headlineRed}
         description={hero.introduction}
-        primaryCta={{ label: "Featured Briefing", href: "#featured" }}
-        secondaryCta={{ label: "Explore All Analysis", href: "#articles-grid" }}
         image={hero.image}
         imageAlt={hero.imageAlt}
       />

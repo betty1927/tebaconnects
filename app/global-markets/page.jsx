@@ -17,10 +17,9 @@ export default function GlobalMarketsPage() {
         kicker={hero.eyebrow}
         breadcrumbs={hero.breadcrumbs}
         titleBlack={hero.headlineBlack}
+        titleBlack2={hero.headlineBlack2}
         titleRed={hero.headlineRed}
         description={hero.introduction}
-        primaryCta={{ label: "Explore The Three Corridors", href: "#markets-list" }}
-        secondaryCta={{ label: "Book a Consultation", href: "/contact" }}
         image={hero.image}
         imageAlt={hero.imageAlt}
       />

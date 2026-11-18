@@ -1,9 +1,9 @@
 {
   "hero": {
     "eyebrow": "OUR CORE SERVICES",
-    "headlineBlack": "Strategic Access. Trusted Relationships.",
-    "headlineRed": "Cross-Border Execution.",
-    "introduction": "Tailored advisory and business development support for organizations navigating international growth.",
+    "headlineBlack": "Strategic Advisory",
+    "headlineRed": "Solutions for Global Growth.",
+    "introduction": "From market entry to investment facilitation, we help you turn opportunities into sustainable business success across the USA, Africa and the Middle East.",
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Services", "href": "/services" }
