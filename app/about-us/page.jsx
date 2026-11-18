@@ -188,7 +188,7 @@ export default function AboutUsPage() {
               <SafeImage
                 src={founder.image}
                 alt={founder.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
               <div className="absolute bottom-3 left-3 right-3 bg-white/95 backdrop-blur-md rounded-xl p-2.5 border border-white/50 text-center">
                 <span className="text-xs font-bold text-[#071B31] block">{founder.name}</span>
