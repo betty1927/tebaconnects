@@ -28,8 +28,10 @@ export default function HeroSection({
   secondaryCta = null,
   image = '/assets/hero-home-landing.jpg',
   imageAlt = 'Teba Connects Global Advisory',
+  imageClassName = null,
   isHome = false
 }) {
+  const resolvedImageClass = imageClassName || (isHome ? 'object-cover object-bottom lg:object-right-bottom' : 'object-cover object-center');
   return (
     <section className="relative overflow-hidden bg-white border-b border-gray-100">
       
@@ -151,7 +153,7 @@ export default function HeroSection({
               <SafeImage
                 src={image}
                 alt={imageAlt}
-                className="w-full h-full object-cover object-bottom lg:object-right-bottom"
+                className={`w-full h-full ${resolvedImageClass}`}
               />
 
               {/* Subtle bottom edge fade */}
