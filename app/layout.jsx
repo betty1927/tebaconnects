@@ -2,6 +2,14 @@ import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: 'cover',
+  themeColor: '#B42034'
+};
+
 export const metadata = {
   metadataBase: new URL('https://tebaconnects.com'),
   title: {

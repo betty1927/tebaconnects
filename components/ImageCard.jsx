@@ -31,7 +31,7 @@ export default function ImageCard({
         </div>
 
         {/* Content Box Positioned at Bottom */}
-        <div className="absolute inset-x-0 bottom-0 p-6 flex flex-col justify-end text-white">
+        <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6 flex flex-col justify-end text-white">
           {badge && (
             <div className="mb-2">
               <span className="inline-block px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[#B42034] text-white rounded">
@@ -40,18 +40,18 @@ export default function ImageCard({
             </div>
           )}
 
-          <h3 className="text-xl font-bold font-serif tracking-tight mb-1.5 text-white group-hover:text-red-300 transition-colors">
+          <h3 className="text-lg sm:text-xl font-bold font-serif tracking-tight mb-1 text-white group-hover:text-red-300 transition-colors">
             {title}
           </h3>
 
           {subtitle && (
-            <div className="text-xs font-medium text-gray-300 mb-2">
+            <div className="text-xs font-medium text-gray-300 mb-1.5 sm:mb-2">
               {subtitle}
             </div>
           )}
 
           {description && (
-            <p className="text-xs sm:text-sm text-gray-200 line-clamp-3 leading-relaxed mb-4 font-light">
+            <p className="text-xs sm:text-sm text-gray-200 line-clamp-3 leading-relaxed mb-3 sm:mb-4 font-light">
               {description}
             </p>
           )}
@@ -80,7 +80,7 @@ export default function ImageCard({
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
         {badge && (
-          <div className="absolute top-4 left-4">
+          <div className="absolute top-3.5 left-3.5">
             <span className="px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider bg-[#B42034] text-white rounded shadow-sm">
               {badge}
             </span>
@@ -88,19 +88,19 @@ export default function ImageCard({
         )}
       </div>
 
-      <div className="p-6 flex flex-col flex-grow">
+      <div className="p-5 sm:p-6 flex flex-col flex-grow">
         {subtitle && (
           <span className="text-xs font-semibold uppercase tracking-wider text-[#B42034] mb-1">
             {subtitle}
           </span>
         )}
 
-        <h3 className="text-lg font-bold text-[#071B31] mb-2 group-hover:text-[#B42034] transition-colors">
+        <h3 className="text-base sm:text-lg font-bold text-[#071B31] mb-2 group-hover:text-[#B42034] transition-colors">
           {title}
         </h3>
 
         {description && (
-          <p className="text-sm text-gray-600 line-clamp-3 leading-relaxed flex-grow mb-4">
+          <p className="text-xs sm:text-sm text-gray-600 line-clamp-3 leading-relaxed flex-grow mb-4">
             {description}
           </p>
         )}

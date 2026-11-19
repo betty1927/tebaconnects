@@ -10,7 +10,7 @@ export default function EventsPage() {
   const { hero, events, eventFormats, cta } = eventsData;
 
   return (
-    <div className="space-y-16 sm:space-y-24 pb-16">
+    <div className="space-y-14 sm:space-y-20 lg:space-y-24 pb-16">
       
       {/* 1. HERO SECTION */}
       <HeroSection
@@ -26,27 +26,27 @@ export default function EventsPage() {
 
       {/* 2. CONFIRMED EVENTS LISTING & DETAIL SECTIONS */}
       <section id="events-list" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
-        <div className="mb-10 max-w-3xl">
+        <div className="mb-8 sm:mb-10 max-w-3xl">
           <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
             Calendar & Platforms
           </span>
           <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#B42034] mt-1">
             Confirmed Forums & Showcases
           </h2>
-          <p className="text-sm text-gray-600 mt-2">
+          <p className="text-xs sm:text-sm text-gray-600 mt-2">
             Structured business forums, trade delegations, and invitation-only investor roundtables with verified dates and official registration destinations.
           </p>
         </div>
 
-        <div className="space-y-16">
+        <div className="space-y-12 sm:space-y-16">
           {events.map((evt) => (
             <div
               key={evt.id}
               id={evt.id}
-              className="bg-white rounded-3xl overflow-hidden border border-gray-200/90 shadow-sm hover:shadow-md transition-shadow p-6 sm:p-10 scroll-mt-24"
+              className="bg-white rounded-3xl overflow-hidden border border-gray-200/90 shadow-sm hover:shadow-md transition-shadow p-5 sm:p-8 lg:p-10 scroll-mt-24"
             >
               {/* Event Header Card */}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-8 pb-8 border-b border-gray-100">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-start mb-6 sm:mb-8 pb-6 sm:pb-8 border-b border-gray-100">
                 {/* Visual Banner */}
                 <div className="lg:col-span-5">
                   <div className="aspect-[16/10] bg-gray-900 rounded-2xl overflow-hidden relative shadow-sm border border-gray-100">
@@ -55,16 +55,16 @@ export default function EventsPage() {
                       alt={evt.title}
                       className="w-full h-full object-cover opacity-95"
                     />
-                    <div className="absolute top-4 left-4 bg-[#B42034] text-white px-3.5 py-1 rounded-full text-xs font-bold tracking-wider uppercase shadow-xs">
+                    <div className="absolute top-3.5 left-3.5 bg-[#B42034] text-white px-3.5 py-1 rounded-full text-xs font-bold tracking-wider uppercase shadow-xs">
                       {evt.badge}
                     </div>
                   </div>
                 </div>
 
                 {/* Primary Metadata */}
-                <div className="lg:col-span-7 space-y-4">
+                <div className="lg:col-span-7 space-y-3.5 sm:space-y-4">
                   <div className="flex flex-wrap items-center gap-2 text-xs font-semibold">
-                    <span className="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
+                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200">
                       {evt.statusType}
                     </span>
                     <span className="text-gray-400">•</span>
@@ -73,11 +73,11 @@ export default function EventsPage() {
                     <span className="text-gray-600">{evt.venue}</span>
                   </div>
 
-                  <h3 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] leading-tight">
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold text-[#071B31] leading-tight">
                     {evt.title}
                   </h3>
 
-                  <p className="text-sm sm:text-base text-gray-700 leading-relaxed font-normal">
+                  <p className="text-xs sm:text-sm lg:text-base text-gray-700 leading-relaxed font-normal">
                     {evt.details.overview}
                   </p>
 
@@ -94,11 +94,11 @@ export default function EventsPage() {
                 </div>
               </div>
 
-              {/* Six Structured Detail Modules: Overview | Who Should Attend | Exhibitor/Sponsor | Delegation Package | Agenda/Venue | Inquiry Form */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-2">
+              {/* Three Structured Detail Modules */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 pt-2">
                 
                 {/* Module 1: Who Should Attend */}
-                <div className="p-5 bg-gray-50/80 rounded-2xl border border-gray-200/80 flex flex-col justify-between">
+                <div className="p-4 sm:p-5 bg-gray-50/80 rounded-2xl border border-gray-200/80 flex flex-col justify-between">
                   <div>
                     <div className="flex items-center gap-2 mb-2 text-[#B42034]">
                       <Icon name="users" className="w-5 h-5" />
@@ -116,7 +116,7 @@ export default function EventsPage() {
                 </div>
 
                 {/* Module 2: Exhibitor & Sponsor Options */}
-                <div className="p-5 bg-gray-50/80 rounded-2xl border border-gray-200/80 flex flex-col justify-between">
+                <div className="p-4 sm:p-5 bg-gray-50/80 rounded-2xl border border-gray-200/80 flex flex-col justify-between">
                   <div>
                     <div className="flex items-center gap-2 mb-2 text-[#B42034]">
                       <Icon name="building" className="w-5 h-5" />
@@ -134,7 +134,7 @@ export default function EventsPage() {
                 </div>
 
                 {/* Module 3: Delegation Package & Agenda/Venue */}
-                <div className="p-5 bg-gray-50/80 rounded-2xl border border-gray-200/80 flex flex-col justify-between">
+                <div className="p-4 sm:p-5 bg-gray-50/80 rounded-2xl border border-gray-200/80 flex flex-col justify-between">
                   <div>
                     <div className="flex items-center gap-2 mb-2 text-[#B42034]">
                       <Icon name="plane" className="w-5 h-5" />
@@ -154,14 +154,14 @@ export default function EventsPage() {
               </div>
 
               {/* Action Buttons: Official Registration & Delegation Inquiry */}
-              <div className="mt-8 pt-6 border-t border-gray-100 flex flex-wrap items-center justify-between gap-4">
+              <div className="mt-6 sm:mt-8 pt-5 sm:pt-6 border-t border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4">
                 <div className="text-xs text-gray-500">
                   <span className="font-semibold text-gray-700">Participation Tier:</span> {evt.participationOptions}
                 </div>
                 <div className="flex flex-wrap items-center gap-3">
                   <Link
                     href={evt.registrationLink}
-                    className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#B42034] hover:bg-[#931828] rounded-full shadow-sm hover:shadow transition-all"
+                    className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#B42034] hover:bg-[#931828] rounded-full shadow-sm hover:shadow transition-all active:scale-95"
                   >
                     <span>{evt.details.inquiryFormText}</span>
                     <Icon name="arrow-right" className="w-4 h-4" />
@@ -175,25 +175,25 @@ export default function EventsPage() {
       </section>
 
       {/* 3. EVENT & DELEGATION FORMATS */}
-      <section className="bg-[#FAFBFD] py-16 border-y border-gray-200 scroll-mt-24">
+      <section className="bg-[#FAFBFD] py-12 sm:py-16 border-y border-gray-200 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-10">
+          <div className="max-w-3xl mb-8 sm:mb-10">
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Convening Capabilities
             </span>
             <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1">
               Event & Delegation Formats
             </h2>
-            <p className="text-sm text-gray-600 mt-2">
+            <p className="text-xs sm:text-sm text-gray-600 mt-2">
               Proven convening structures tailored for bilateral governments, institutional capital allocators, and industry associations.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {eventFormats.map((fmt, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-2xl border border-gray-200/90 shadow-xs hover:border-[#B42034] hover:shadow-md transition-all">
-                <div className="w-11 h-11 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center mb-4">
-                  <Icon name={fmt.icon} className="w-6 h-6" />
+              <div key={idx} className="bg-white p-5 sm:p-6 rounded-2xl border border-gray-200/90 shadow-xs hover:border-[#B42034] hover:shadow-md transition-all">
+                <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center mb-3.5">
+                  <Icon name={fmt.icon} className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <h3 className="text-base font-bold text-[#071B31] mb-2">{fmt.title}</h3>
                 <p className="text-xs text-gray-600 leading-relaxed">{fmt.description}</p>

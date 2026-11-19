@@ -10,7 +10,7 @@ export default function GlobalMarketsPage() {
   const { hero, markets, disclaimer, cta } = marketsData;
 
   return (
-    <div className="space-y-16 sm:space-y-24 pb-16">
+    <div className="space-y-14 sm:space-y-20 lg:space-y-24 pb-16">
       
       {/* 1. HERO SECTION */}
       <HeroSection
@@ -26,12 +26,12 @@ export default function GlobalMarketsPage() {
 
       {/* 2. THREE REGIONAL CORRIDORS */}
       <section id="markets-list" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
-        <div className="space-y-16">
+        <div className="space-y-10 sm:space-y-14 lg:space-y-16">
           {markets.map((market, idx) => (
             <div
               key={market.id}
               id={market.id}
-              className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center bg-white rounded-3xl border border-gray-200/90 shadow-sm p-6 sm:p-10 hover:shadow-md transition-shadow scroll-mt-24"
+              className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 lg:gap-12 items-center bg-white rounded-3xl border border-gray-200/90 shadow-sm p-5 sm:p-8 lg:p-10 hover:shadow-md transition-shadow scroll-mt-24"
             >
               {/* Image banner */}
               <div className={`lg:col-span-5 ${idx % 2 === 1 ? 'lg:order-2' : ''}`}>
@@ -41,11 +41,11 @@ export default function GlobalMarketsPage() {
                     alt={market.region}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-95"
                   />
-                  <div className="absolute top-4 left-4 bg-[#B42034] text-white px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm">
+                  <div className="absolute top-3.5 left-3.5 bg-[#B42034] text-white px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm">
                     {market.region}
                   </div>
                   <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-[#071B31]/90 via-[#071B31]/40 to-transparent">
-                    <span className="text-xs font-bold text-white tracking-widest uppercase">
+                    <span className="text-xs font-bold text-white tracking-widest uppercase font-mono">
                       Strategic Corridor
                     </span>
                   </div>
@@ -53,26 +53,26 @@ export default function GlobalMarketsPage() {
               </div>
 
               {/* Market Content */}
-              <div className={`lg:col-span-7 space-y-4 ${idx % 2 === 1 ? 'lg:order-1' : ''}`}>
+              <div className={`lg:col-span-7 space-y-3.5 sm:space-y-4 ${idx % 2 === 1 ? 'lg:order-1' : ''}`}>
                 <div>
                   <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
                     Priority Region
                   </span>
-                  <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#071B31] mt-1">
+                  <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#071B31] mt-1">
                     {market.region}
                   </h2>
                 </div>
 
-                <p className="text-base font-semibold text-[#071B31] leading-relaxed">
+                <p className="text-sm sm:text-base font-semibold text-[#071B31] leading-relaxed">
                   {market.subtitle}
                 </p>
 
-                <p className="text-sm text-gray-700 leading-relaxed font-normal">
+                <p className="text-xs sm:text-sm text-gray-700 leading-relaxed font-normal">
                   {market.overview}
                 </p>
 
                 {/* Who We Support */}
-                <div className="p-3.5 bg-[#FAFBFD] rounded-xl border border-gray-200">
+                <div className="p-3 sm:p-3.5 bg-[#FAFBFD] rounded-xl border border-gray-200">
                   <span className="text-xs font-bold text-[#071B31] uppercase tracking-wider block mb-1">
                     Who We Support:
                   </span>
@@ -88,7 +88,7 @@ export default function GlobalMarketsPage() {
                   </h4>
                   <div className="flex flex-wrap gap-1.5">
                     {market.relevantSectors.map((sec, sIdx) => (
-                      <span key={sIdx} className="text-xs font-semibold px-2.5 py-1 bg-red-50/80 text-[#B42034] rounded-md border border-red-100">
+                      <span key={sIdx} className="text-xs font-semibold px-2.5 py-0.5 sm:py-1 bg-red-50/80 text-[#B42034] rounded-md border border-red-100">
                         {sec}
                       </span>
                     ))}
@@ -113,7 +113,7 @@ export default function GlobalMarketsPage() {
                 <div className="pt-2">
                   <Link
                     href={`/contact?market=${encodeURIComponent(market.region)}`}
-                    className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#B42034] hover:bg-[#931828] rounded-full shadow-sm hover:shadow transition-all"
+                    className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#B42034] hover:bg-[#931828] rounded-full shadow-sm hover:shadow transition-all active:scale-95"
                   >
                     <span>Request a Market Conversation</span>
                     <Icon name="arrow-right" className="w-4 h-4" />
@@ -125,7 +125,7 @@ export default function GlobalMarketsPage() {
         </div>
 
         {/* Essential Compliance Disclaimer */}
-        <div className="mt-12 p-5 bg-[#FAFBFD] rounded-2xl border border-gray-200 text-center">
+        <div className="mt-10 sm:mt-12 p-4 sm:p-5 bg-[#FAFBFD] rounded-2xl border border-gray-200 text-center">
           <p className="text-xs text-gray-600 italic max-w-3xl mx-auto leading-relaxed">
             {disclaimer}
           </p>

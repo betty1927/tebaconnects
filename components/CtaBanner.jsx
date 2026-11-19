@@ -17,9 +17,9 @@ export default function CtaBanner({
         : variant === 'red'
         ? 'bg-[#B42034] text-white'
         : 'bg-[#F5F5F5] text-[#071B31]'
-    } py-14 lg:py-16 ${className}`}>
+    } py-12 sm:py-14 lg:py-16 ${className}`}>
       
-      {/* Decorative background grid pattern / subtle globe wireframe */}
+      {/* Decorative background grid pattern / subtle wireframe */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
           <defs>
@@ -32,23 +32,23 @@ export default function CtaBanner({
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 text-center lg:text-left">
           
           <div className="max-w-2xl">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-tight mb-2">
+            <h2 className="text-xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-tight mb-2">
               {title}
             </h2>
             {subtitle && (
-              <p className="text-base sm:text-lg text-gray-300 font-light">
+              <p className="text-xs sm:text-base lg:text-lg text-gray-300 font-light">
                 {subtitle}
               </p>
             )}
           </div>
 
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <Link
               href={buttonHref}
-              className={`inline-flex items-center gap-2.5 px-8 py-3.5 text-sm sm:text-base font-semibold rounded-full shadow-lg transition-all duration-200 active:scale-95 group ${
+              className={`inline-flex items-center gap-2.5 px-6 sm:px-8 py-3 sm:py-3.5 text-xs sm:text-sm lg:text-base font-semibold rounded-full shadow-lg transition-all duration-200 active:scale-95 group ${
                 variant === 'navy'
                   ? 'bg-[#B42034] hover:bg-[#931828] text-white shadow-red-950/40 hover:shadow-red-950/60'
                   : 'bg-white hover:bg-gray-50 text-[#071B31] shadow-black/20'

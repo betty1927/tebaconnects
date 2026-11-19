@@ -22,7 +22,7 @@ export default function HomePage() {
   const closingCta = homeData.closingCta || {};
 
   return (
-    <div className="space-y-16 sm:space-y-24 pb-16">
+    <div className="space-y-14 sm:space-y-20 lg:space-y-24 pb-16">
       
       {/* 1. HERO SECTION */}
       <HeroSection
@@ -41,7 +41,7 @@ export default function HomePage() {
 
       {/* 2. ABOUT TEBA CONNECTS (Bridging Opportunity & Execution) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-[#FAFBFD] rounded-3xl border border-gray-200/90 p-8 sm:p-12 shadow-sm relative overflow-hidden">
+        <div className="bg-[#FAFBFD] rounded-3xl border border-gray-200/90 p-6 sm:p-10 lg:p-12 shadow-sm relative overflow-hidden">
           <div className="max-w-3xl">
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               {aboutTebaConnects.eyebrow}
@@ -57,7 +57,7 @@ export default function HomePage() {
             </p>
             <Link
               href={aboutTebaConnects.cta.href}
-              className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#B42034] hover:bg-[#931828] rounded-full transition-all shadow-sm"
+              className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#B42034] hover:bg-[#931828] rounded-full transition-all shadow-sm active:scale-95"
             >
               <span>{aboutTebaConnects.cta.label}</span>
               <Icon name="arrow-right" className="w-4 h-4" />
@@ -68,7 +68,7 @@ export default function HomePage() {
 
       {/* 3. FIVE CORE SERVICES (Page 3 Approved Titles: 01 to 05) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100 gap-3">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Capabilities
@@ -82,7 +82,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/services"
-            className="mt-3 md:mt-0 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B42034] hover:underline"
+            className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[#B42034] hover:underline self-start md:self-auto"
           >
             <span>View All Five Services</span>
             <Icon name="arrow-right" className="w-4 h-4" />
@@ -108,7 +108,7 @@ export default function HomePage() {
 
       {/* 4. GLOBAL MARKETS (Exactly Three Strategic Corridors: USA | Africa | Middle East) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100 gap-3">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Strategic Corridors
@@ -122,7 +122,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/global-markets"
-            className="mt-3 md:mt-0 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B42034] hover:underline"
+            className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[#B42034] hover:underline self-start md:self-auto"
           >
             <span>Explore All Corridors</span>
             <Icon name="arrow-right" className="w-4 h-4" />
@@ -170,7 +170,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="lg:col-span-7 space-y-5">
+          <div className="lg:col-span-7 space-y-4 sm:space-y-5">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
                 {founderPreview.title}
@@ -180,13 +180,13 @@ export default function HomePage() {
               </h2>
             </div>
 
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed font-normal">
               {founderPreview.bio}
             </p>
 
             {/* Approved Personal Quote */}
             <div className="border-l-4 border-[#B42034] pl-4 py-2 bg-red-50/50 rounded-r-xl">
-              <blockquote className="text-sm sm:text-base font-serif italic text-[#071B31] leading-relaxed">
+              <blockquote className="text-xs sm:text-base font-serif italic text-[#071B31] leading-relaxed">
                 “{founderPreview.quote}”
               </blockquote>
               <div className="text-xs font-bold text-[#B42034] mt-1">
@@ -197,7 +197,7 @@ export default function HomePage() {
             <div className="pt-2">
               <Link
                 href={founderPreview.cta.href}
-                className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#071B31] hover:bg-[#0D2744] rounded-full transition-all shadow-sm"
+                className="inline-flex items-center gap-2 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-[#071B31] hover:bg-[#0D2744] rounded-full transition-all shadow-sm active:scale-95"
               >
                 <span>{founderPreview.cta.label}</span>
                 <Icon name="arrow-right" className="w-4 h-4 text-[#B42034]" />
@@ -210,7 +210,7 @@ export default function HomePage() {
 
       {/* 6. STRATEGIC PARTNERSHIPS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100 gap-3">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Ecosystem & Alliances
@@ -224,7 +224,7 @@ export default function HomePage() {
           </div>
           <Link
             href={strategicPartnerships.cta.href}
-            className="mt-3 md:mt-0 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B42034] hover:underline"
+            className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[#B42034] hover:underline self-start md:self-auto"
           >
             <span>{strategicPartnerships.cta.label}</span>
             <Icon name="arrow-right" className="w-4 h-4" />
@@ -288,36 +288,36 @@ export default function HomePage() {
       {/* 7. THE TEBA CONNECTS ADVANTAGE (Three Pillars: Market Access | Strategic Relationships | On-the-Ground Execution) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl border border-gray-200/90 shadow-sm p-6 sm:p-10">
-          <div className="text-center max-w-2xl mx-auto mb-10">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Signature Advantage
             </span>
             <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#B42034] mt-1">
               {tebaConnectsAdvantage.headline}
             </h2>
-            <p className="text-base text-gray-600 mt-2 font-medium">
+            <p className="text-sm sm:text-base text-gray-600 mt-2 font-medium">
               {tebaConnectsAdvantage.subtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 divide-y md:divide-y-0 md:divide-x divide-gray-100">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 divide-y md:divide-y-0 md:divide-x divide-gray-100">
             {tebaConnectsAdvantage.pillars.map((pillar) => (
               <div key={pillar.id} className="pt-6 md:pt-0 md:px-8 first:pt-0 first:pl-0 last:pr-0 flex flex-col items-center md:items-start text-center md:text-left">
-                <div className="w-14 h-14 rounded-2xl bg-red-50 text-[#B42034] flex items-center justify-center mb-4 shadow-xs">
-                  <Icon name={pillar.icon} className="w-7 h-7" />
+                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-red-50 text-[#B42034] flex items-center justify-center mb-4 shadow-xs">
+                  <Icon name={pillar.icon} className="w-6 h-6 sm:w-7 sm:h-7" />
                 </div>
-                <h3 className="text-xl font-serif font-bold text-[#071B31] mb-2">{pillar.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{pillar.description}</p>
+                <h3 className="text-lg sm:text-xl font-serif font-bold text-[#071B31] mb-2">{pillar.title}</h3>
+                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">{pillar.description}</p>
               </div>
             ))}
           </div>
 
           {/* Execution Approach Strip */}
-          <div className="mt-10 pt-8 border-t border-gray-100 grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-gray-100 grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4">
             {approachStrip.map((item, idx) => (
-              <div key={idx} className="flex items-center gap-2.5 justify-center md:justify-start bg-gray-50/80 rounded-xl px-4 py-2.5">
+              <div key={idx} className="flex items-center gap-2 justify-center md:justify-start bg-gray-50/80 rounded-xl px-2.5 sm:px-4 py-2 sm:py-2.5">
                 <Icon name={item.icon || 'globe'} className="w-4 h-4 text-[#B42034] shrink-0" />
-                <span className="text-xs font-bold text-[#071B31] tracking-wide">
+                <span className="text-[11px] sm:text-xs font-bold text-[#071B31] tracking-wide line-clamp-1">
                   {item.title}
                 </span>
               </div>
@@ -327,30 +327,30 @@ export default function HomePage() {
       </section>
 
       {/* 8. KEY SECTORS (10 Focus Sectors with Focus Area Disclaimer) */}
-      <section className="bg-[#FAFBFD] py-16 border-y border-gray-200">
+      <section className="bg-[#FAFBFD] py-12 sm:py-16 border-y border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-10">
+          <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Sectoral Focus
             </span>
             <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#B42034] mt-1">
               {keySectors.title}
             </h2>
-            <p className="text-xs text-gray-500 mt-2 italic">
+            <p className="text-xs text-gray-500 mt-2 italic px-2">
               {keySectors.disclaimer}
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2.5 sm:gap-4">
             {keySectors.items.map((sec) => (
               <div
                 key={sec.id}
-                className="bg-white rounded-xl p-4 border border-gray-200/90 shadow-xs hover:border-[#B42034] hover:shadow-md transition-all flex flex-col items-center text-center group"
+                className="bg-white rounded-xl p-3 sm:p-4 border border-gray-200/90 shadow-xs hover:border-[#B42034] hover:shadow-md transition-all flex flex-col items-center text-center group"
               >
-                <div className="w-11 h-11 rounded-full bg-red-50 text-[#B42034] flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                  <Icon name={sec.icon} className="w-5 h-5" />
+                <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-red-50 text-[#B42034] flex items-center justify-center mb-2.5 group-hover:scale-110 transition-transform">
+                  <Icon name={sec.icon} className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <span className="text-xs font-semibold text-gray-800 group-hover:text-[#B42034] leading-tight">
+                <span className="text-[11px] sm:text-xs font-semibold text-gray-800 group-hover:text-[#B42034] leading-tight line-clamp-2">
                   {sec.title}
                 </span>
               </div>
@@ -361,7 +361,7 @@ export default function HomePage() {
 
       {/* 9. FEATURED EVENTS (AGMEX | CAWEE | Africa Investment Circle - Dubai) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-gray-100 gap-3">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
               Global Convenings
@@ -375,7 +375,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/events"
-            className="mt-3 md:mt-0 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B42034] hover:underline"
+            className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[#B42034] hover:underline self-start md:self-auto"
           >
             <span>Explore All Events</span>
             <Icon name="arrow-right" className="w-4 h-4" />

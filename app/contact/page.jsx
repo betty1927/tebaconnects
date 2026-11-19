@@ -30,7 +30,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="space-y-16 sm:space-y-24 pb-16">
+    <div className="space-y-14 sm:space-y-20 lg:space-y-24 pb-16">
       
       {/* 1. HERO SECTION */}
       <HeroSection
@@ -46,25 +46,25 @@ export default function ContactPage() {
 
       {/* 2. SPLIT CONTACT DIRECTORY & CONTROLLED FORM */}
       <section id="inquiry-form" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 bg-white rounded-3xl border border-gray-200/90 shadow-md p-6 sm:p-10 lg:p-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 bg-white rounded-3xl border border-gray-200/90 shadow-md p-5 sm:p-8 lg:p-12">
           
           {/* Left Column: Direct Contact Information */}
-          <div className="lg:col-span-5 space-y-8">
+          <div className="lg:col-span-5 space-y-6 sm:space-y-8">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-[#B42034] font-mono">
                 Executive Channels
               </span>
-              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1 mb-3">
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#071B31] mt-1 mb-2.5 sm:mb-3">
                 Contact Information
               </h2>
-              <p className="text-sm text-gray-600 leading-relaxed">
+              <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                 Connect directly with our senior advisory team across the United States, Africa, and the Middle East.
               </p>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-5 sm:space-y-6">
               {/* Emails */}
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-3.5 sm:gap-4">
                 <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
                   <Icon name="mail" className="w-5 h-5" />
                 </div>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                   <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">Email</h4>
                   {contactDetails.emails.map((em) => (
                     <div key={em}>
-                      <a href={`mailto:${em}`} className="text-sm font-semibold text-[#071B31] hover:text-[#B42034] transition-colors">
+                      <a href={`mailto:${em}`} className="text-xs sm:text-sm font-semibold text-[#071B31] hover:text-[#B42034] transition-colors break-all">
                         {em}
                       </a>
                     </div>
@@ -81,7 +81,7 @@ export default function ContactPage() {
               </div>
 
               {/* Telephones */}
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-3.5 sm:gap-4">
                 <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
                   <Icon name="phone" className="w-5 h-5" />
                 </div>
@@ -89,7 +89,7 @@ export default function ContactPage() {
                   <h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">Telephone</h4>
                   {contactDetails.phones.map((ph) => (
                     <div key={ph.number}>
-                      <a href={`tel:${ph.number.replace(/\s+/g, '')}`} className="text-sm font-semibold text-[#071B31] hover:text-[#B42034] transition-colors">
+                      <a href={`tel:${ph.number.replace(/\s+/g, '')}`} className="text-xs sm:text-sm font-semibold text-[#071B31] hover:text-[#B42034] transition-colors whitespace-nowrap">
                         {ph.number} <span className="text-xs text-gray-500 font-normal">({ph.region})</span>
                       </a>
                     </div>
@@ -98,7 +98,7 @@ export default function ContactPage() {
               </div>
 
               {/* Website */}
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-3.5 sm:gap-4">
                 <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
                   <Icon name="globe" className="w-5 h-5" />
                 </div>
@@ -108,7 +108,7 @@ export default function ContactPage() {
                     href="https://tebaconnects.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm font-semibold text-[#071B31] hover:text-[#B42034] transition-colors"
+                    className="text-xs sm:text-sm font-semibold text-[#071B31] hover:text-[#B42034] transition-colors"
                   >
                     {contactDetails.website}
                   </a>
@@ -116,7 +116,7 @@ export default function ContactPage() {
               </div>
 
               {/* Markets */}
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-3.5 sm:gap-4">
                 <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
                   <Icon name="map-pin" className="w-5 h-5" />
                 </div>
@@ -133,7 +133,7 @@ export default function ContactPage() {
               </div>
 
               {/* LinkedIn */}
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-3.5 sm:gap-4">
                 <div className="w-10 h-10 rounded-xl bg-red-50 text-[#B42034] flex items-center justify-center shrink-0">
                   <Icon name="linkedin" className="w-5 h-5" />
                 </div>
@@ -168,21 +168,21 @@ export default function ContactPage() {
           </div>
 
           {/* Right Column: Five-Service Controlled Form */}
-          <div className="lg:col-span-7 bg-[#FAFBFD] p-6 sm:p-8 rounded-2xl border border-gray-200">
-            <h3 className="text-xl font-serif font-bold text-[#071B31] mb-2">
+          <div className="lg:col-span-7 bg-[#FAFBFD] p-5 sm:p-8 rounded-2xl border border-gray-200">
+            <h3 className="text-lg sm:text-xl font-serif font-bold text-[#071B31] mb-1.5">
               {form.title}
             </h3>
-            <p className="text-xs text-gray-500 mb-6">
+            <p className="text-xs text-gray-500 mb-5 sm:mb-6">
               Complete the verified fields below to schedule a consultation with our senior advisory team.
             </p>
 
             {submitted ? (
-              <div className="p-8 text-center bg-white rounded-2xl border border-emerald-200 shadow-sm space-y-3">
+              <div className="p-6 sm:p-8 text-center bg-white rounded-2xl border border-emerald-200 shadow-sm space-y-3">
                 <div className="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
                   <Icon name="handshake" className="w-6 h-6" />
                 </div>
                 <h4 className="text-lg font-bold text-[#071B31]">Inquiry Received</h4>
-                <p className="text-sm text-gray-600 max-w-sm mx-auto leading-relaxed">
+                <p className="text-xs sm:text-sm text-gray-600 max-w-sm mx-auto leading-relaxed">
                   Thank you for contacting Teba Connects. An executive advisory principal will review your submission and connect with you within 24 business hours.
                 </p>
                 <div className="pt-2">
@@ -208,7 +208,7 @@ export default function ContactPage() {
                       placeholder="e.g. John Doe"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
+                      className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white transition-all"
                     />
                   </div>
                   <div>
@@ -221,7 +221,7 @@ export default function ContactPage() {
                       placeholder="e.g. Global Enterprises LLC"
                       value={formData.organization}
                       onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
+                      className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white transition-all"
                     />
                   </div>
                 </div>
@@ -237,7 +237,7 @@ export default function ContactPage() {
                       placeholder="name@organization.com"
                       value={formData.workEmail}
                       onChange={(e) => setFormData({ ...formData, workEmail: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
+                      className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white transition-all"
                     />
                   </div>
                   <div>
@@ -249,7 +249,7 @@ export default function ContactPage() {
                       placeholder="+1 (555) 000-0000"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
+                      className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white transition-all"
                     />
                   </div>
                 </div>
@@ -261,7 +261,7 @@ export default function ContactPage() {
                   <select
                     value={formData.countryMarket}
                     onChange={(e) => setFormData({ ...formData, countryMarket: e.target.value })}
-                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white transition-all"
                   >
                     {form.marketOptions.map(opt => (
                       <option key={opt} value={opt}>{opt}</option>
@@ -276,7 +276,7 @@ export default function ContactPage() {
                   <select
                     value={formData.serviceOfInterest}
                     onChange={(e) => setFormData({ ...formData, serviceOfInterest: e.target.value })}
-                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white transition-all"
                   >
                     {form.servicesOptions.map(opt => (
                       <option key={opt} value={opt}>{opt}</option>
@@ -294,7 +294,7 @@ export default function ContactPage() {
                     placeholder="Briefly describe your objectives, target corridor, or delegation requirements..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 text-sm focus:outline-none focus:ring-2 focus:ring-[#B42034]/20 focus:border-[#B42034] bg-white transition-all"
                   />
                 </div>
 
