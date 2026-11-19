@@ -8,8 +8,8 @@
       { "label": "Home", "href": "/" },
       { "label": "Events", "href": "/events" }
     ],
-    "image": "/assets/hero-teba-main.jpg",
-    "imageAlt": "Teba Connects Global Trade Platforms"
+    "image": "/assets/hero-events.jpg",
+    "imageAlt": "Global Platforms and Business Forums - Teba Connects Events"
   },
   "events": [
     {
