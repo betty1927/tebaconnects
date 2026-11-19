@@ -33,7 +33,7 @@ export default function Navbar() {
           
           {/* Official TC Monogram Logo */}
           <Link href="/" className="flex items-center group transition-transform group-hover:scale-105" aria-label="Teba Connects Home">
-            <Logo className="h-10 sm:h-11" showText={false} />
+            <Logo className="h-11 sm:h-12" showText={false} />
           </Link>
 
           {/* Desktop Navigation */}

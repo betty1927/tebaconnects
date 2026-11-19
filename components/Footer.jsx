@@ -54,7 +54,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-5 space-y-4">
             <Link href="/" className="inline-block">
-              <Logo variant="white" className="h-10" showText={true} />
+              <Logo variant="white" className="h-11 sm:h-12" showText={false} />
             </Link>
             <p className="text-sm text-gray-300 max-w-sm leading-relaxed">
               Teba Connects is a US headquartered global business advisory and market development Firm that helps organizations enter new markets, build strategic partnerships and accelerate cross-border growth.
