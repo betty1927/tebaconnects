@@ -41,6 +41,7 @@ export default function ContactPage() {
         description={hero.introduction}
         image={hero.image}
         imageAlt={hero.imageAlt}
+        imageClassName="object-cover object-right"
       />
 
       {/* 2. SPLIT CONTACT DIRECTORY & CONTROLLED FORM */}

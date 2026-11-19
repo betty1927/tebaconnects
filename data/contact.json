@@ -8,8 +8,8 @@
       { "label": "Home", "href": "/" },
       { "label": "Contact", "href": "/contact" }
     ],
-    "image": "/assets/hero-teba-main.jpg",
-    "imageAlt": "Contact Teba Connects Global Advisory"
+    "image": "/assets/hero-contact.jpg",
+    "imageAlt": "Global Connectivity and Market Bridges - Teba Connects Contact"
   },
   "contactDetails": {
     "emails": [
