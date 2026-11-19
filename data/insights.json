@@ -1,9 +1,9 @@
 {
   "hero": {
     "eyebrow": "MARKET INTELLIGENCE",
-    "headlineBlack": "Insights That Inform",
-    "headlineRed": "Action.",
-    "introduction": "Market intelligence, policy updates and practical analysis to help you navigate opportunities across the USA, Africa and the Middle East.",
+    "headlineBlack": "Market Intelligence",
+    "headlineRed": "for Better Decisions.",
+    "introduction": "Practical perspectives on market entry, cross-border partnerships, trade and investment across the USA, Africa and the Middle East.",
     "breadcrumbs": [
       { "label": "Home", "href": "/" },
       { "label": "Insights", "href": "/insights" }

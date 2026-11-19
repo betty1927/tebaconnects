@@ -30,6 +30,7 @@ export default function HomePage() {
         titleBlack={hero.headlineBlack}
         titleRed={hero.headlineRed}
         description={hero.subheadline}
+        introduction={hero.introduction}
         taglinePill={hero.taglinePill}
         primaryCta={hero.primaryCta}
         secondaryCta={hero.secondaryCta}

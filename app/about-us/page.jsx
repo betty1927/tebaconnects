@@ -17,7 +17,6 @@ export default function AboutUsPage() {
         kicker={hero.eyebrow}
         breadcrumbs={hero.breadcrumbs}
         titleBlack={hero.headlineBlack}
-        titleBlack2={hero.headlineBlack2}
         titleRed={hero.headlineRed}
         description={hero.supportingLine}
         image={hero.image}

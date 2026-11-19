@@ -17,7 +17,6 @@ export default function GlobalMarketsPage() {
         kicker={hero.eyebrow}
         breadcrumbs={hero.breadcrumbs}
         titleBlack={hero.headlineBlack}
-        titleBlack2={hero.headlineBlack2}
         titleRed={hero.headlineRed}
         description={hero.introduction}
         image={hero.image}
