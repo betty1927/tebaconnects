@@ -81,7 +81,7 @@ const jsonLd = {
       logo: 'https://tebaconnects.com/assets/tc-logo-official-large.png',
       image: 'https://tebaconnects.com/assets/hero-teba-main.jpg',
       description: 'US headquartered global business advisory and market development Firm that helps organizations enter new markets, build strategic partnerships and accelerate cross-border growth.',
-      telephone: ['+1-206-850-0926', '+251-912-689-532'],
+      telephone: ['+1-206-850-0926', '+251-912-669-532'],
       email: ['teba.molla@tebaconnects.com', 'info@tebaconnects.com'],
       founder: {
         '@type': 'Person',
