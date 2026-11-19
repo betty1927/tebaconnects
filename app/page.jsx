@@ -36,6 +36,7 @@ export default function HomePage() {
         secondaryCta={hero.secondaryCta}
         image={hero.image}
         imageAlt={hero.imageAlt}
+        imageClassName="object-cover object-top sm:object-center"
         isHome={true}
       />
 
