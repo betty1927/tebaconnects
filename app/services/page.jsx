@@ -21,6 +21,7 @@ export default function ServicesPage() {
         description={hero.introduction}
         image={hero.image}
         imageAlt={hero.imageAlt}
+        imageClassName="object-cover object-center"
       />
 
       {/* 2. OVERVIEW INTRO */}

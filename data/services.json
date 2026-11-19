@@ -8,8 +8,8 @@
       { "label": "Home", "href": "/" },
       { "label": "Services", "href": "/services" }
     ],
-    "image": "/assets/hero-teba-main.jpg",
-    "imageAlt": "Teba Connects Core Advisory Services"
+    "image": "/assets/hero-services.jpg",
+    "imageAlt": "Strategic Advisory and Cross-Border Partnerships - Teba Connects Services"
   },
   "overview": {
     "title": "Our Services",
