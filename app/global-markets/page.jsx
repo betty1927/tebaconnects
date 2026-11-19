@@ -21,6 +21,7 @@ export default function GlobalMarketsPage() {
         description={hero.introduction}
         image={hero.image}
         imageAlt={hero.imageAlt}
+        imageClassName="object-cover object-right"
       />
 
       {/* 2. THREE REGIONAL CORRIDORS */}
